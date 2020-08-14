@@ -46,17 +46,17 @@ public class AppDemo {
 		cap.setCapability("unicodeKeyboard", "true");
 		cap.setCapability("resetKeyboard", "true");
 
-		driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), cap);
+		driver = new WrappedRemoteWebDriver(new URL("http://127.0.0.1:4723/wd/hub"), cap);
 	}
 
 	@Test
-	public void plus() throws Exception {
+	public void plus()  throws Exception {
 
 		boolean flag = true;
 		int random = new Random().nextInt(40000)+5000;
 		//int random = 5000;
-		Thread.sleep(random);
 		logger.info("等待时间"+random);
+		Thread.sleep(random);
 		//Thread.sleep(5000);
 		driver.findElement(By.xpath("//android.widget.TextView[@text='工作台']")).click();
 		Thread.sleep(3000);
@@ -130,7 +130,6 @@ public class AppDemo {
 			logger.info("异常");
 			flag = false;
 		}
-
 		Assert.assertTrue(flag);
 	}
 

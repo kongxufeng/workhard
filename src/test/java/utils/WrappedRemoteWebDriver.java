@@ -1,5 +1,6 @@
 package utils;
 
+import io.appium.java_client.android.AndroidDriver;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.Capabilities;
@@ -17,7 +18,7 @@ import java.util.List;
  * @author liudao
  *
  */
-public class WrappedRemoteWebDriver extends RemoteWebDriver {
+public class WrappedRemoteWebDriver extends AndroidDriver {
 	
 	private Logger logger = LogManager.getLogger();
 	
