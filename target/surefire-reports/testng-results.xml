@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="努力工作" duration-ms="46545" started-at="2020-06-16T09:45:32Z" finished-at="2020-06-16T09:46:19Z">
+    <groups>
+    </groups>
+    <test name="热爱工作" duration-ms="46545" started-at="2020-06-16T09:45:32Z" finished-at="2020-06-16T09:46:19Z">
+      <class name="utils.AppDemo">
+        <test-method status="PASS" signature="setup()[pri:0, instance:utils.AppDemo@5d7ca698]" name="setup" is-config="true" duration-ms="10300" started-at="2020-06-16T09:45:32Z" finished-at="2020-06-16T09:45:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="plus()[pri:0, instance:utils.AppDemo@5d7ca698]" name="plus" duration-ms="34774" started-at="2020-06-16T09:45:43Z" finished-at="2020-06-16T09:46:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- plus -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:utils.AppDemo@5d7ca698]" name="tearDown" is-config="true" duration-ms="1369" started-at="2020-06-16T09:46:17Z" finished-at="2020-06-16T09:46:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- utils.AppDemo -->
+    </test> <!-- 热爱工作 -->
+  </suite> <!-- 努力工作 -->
+</testng-results>

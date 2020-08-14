@@ -1,0 +1,47 @@
+# Created at 2020-05-22T16:39:10.502
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+# Created at 2020-05-22T16:39:36.762
+Unexpected IOException: 9,1,utils.AppDemo,plus(utils.AppDemo),null,An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 576 milliseconds\000AFor documentation on this error\002C please visit: http://seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'KONGXUFENG-PC'\002C ip: '10.0.75.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_92'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities [{appPackage=com.seeyon.cmp\002C networkConnectionEnabled=true\002C warnings={}\002C appWaitActivity=com.seeyon.cmp.ui.main.MainActivity\002C databaseEnabled=false\002C deviceName=G6DAJZLJU8NVVWFA\002C platform=LINUX\002C appActivity=com.seeyon.cmp.ui.LoadActivity\002C desired={appPackage=com.seeyon.cmp\002C appActivity=com.seeyon.cmp.ui.LoadActivity\002C platformVersion=5.1.1\002C appWaitActivity=com.seeyon.cmp.ui.main.MainActivity\002C browserName=\002C sessionOverride=true\002C platformName=Android\002C deviceName=G6DAJZLJU8NVVWFA}\002C platformVersion=8.1.0\002C webStorageEnabled=false\002C locationContextEnabled=false\002C browserName=\002C takesScreenshot=true\002C javascriptEnabled=true\002C sessionOverride=true\002C platformName=Android}]\000ASession ID: 34b06608-08c6-44bb-9cb3-c6490c1b4f84\000A*** Element info: {Using=xpath\002C value=//android.widget.TextView[@text='\5DE5\4F5C\53F0']},null
+
+
+# Created at 2020-05-22T16:39:36.767
+Unexpected IOException: 5,1,utils.AppDemo,plus(utils.AppDemo),utils.AppDemo,null,null
+
+
+# Created at 2020-05-22T16:39:36.768
+Unexpected IOException with stream: 16:39:36.767 INFO  utils.AppDemo - 等待时间13777
+
+
+# Created at 2020-05-22T16:39:50.720
+Unexpected IOException: 9,1,utils.AppDemo,plus(utils.AppDemo),null,An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 169 milliseconds\000AFor documentation on this error\002C please visit: http://seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'KONGXUFENG-PC'\002C ip: '10.0.75.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_92'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities [{appPackage=com.seeyon.cmp\002C networkConnectionEnabled=true\002C warnings={}\002C appWaitActivity=com.seeyon.cmp.ui.main.MainActivity\002C databaseEnabled=false\002C deviceName=G6DAJZLJU8NVVWFA\002C platform=LINUX\002C appActivity=com.seeyon.cmp.ui.LoadActivity\002C desired={appPackage=com.seeyon.cmp\002C appActivity=com.seeyon.cmp.ui.LoadActivity\002C platformVersion=5.1.1\002C appWaitActivity=com.seeyon.cmp.ui.main.MainActivity\002C browserName=\002C sessionOverride=true\002C platformName=Android\002C deviceName=G6DAJZLJU8NVVWFA}\002C platformVersion=8.1.0\002C webStorageEnabled=false\002C locationContextEnabled=false\002C browserName=\002C takesScreenshot=true\002C javascriptEnabled=true\002C sessionOverride=true\002C platformName=Android}]\000ASession ID: 34b06608-08c6-44bb-9cb3-c6490c1b4f84\000A*** Element info: {Using=xpath\002C value=//android.widget.TextView[@text='\5DE5\4F5C\53F0']},null
+
+
+# Created at 2020-05-22T16:39:50.722
+Unexpected IOException: 5,1,utils.AppDemo,plus(utils.AppDemo),utils.AppDemo,null,null
+
+
+# Created at 2020-05-22T16:39:50.723
+Unexpected IOException with stream: 16:39:50.722 INFO  utils.AppDemo - 等待时间6366
+
+
+# Created at 2020-05-22T16:39:58.871
+Unexpected IOException with stream: 五月 22, 2020 4:39:58 下午 org.apache.http.impl.execchain.RetryExec execute
+信息: I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:4723: Connection reset
+
+
+# Created at 2020-05-22T16:39:58.873
+Unexpected IOException with stream: 五月 22, 2020 4:39:58 下午 org.apache.http.impl.execchain.RetryExec execute
+信息: Retrying request to {}->http://127.0.0.1:4723
+
+
+# Created at 2020-05-22T16:39:59.902
+Unexpected IOException: 8,1,utils.AppDemo,tearDown(utils.AppDemo),null,org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'KONGXUFENG-PC'\002C ip: '10.0.75.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_92'\000ADriver info: driver.version: RemoteWebDriver,null,org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'KONGXUFENG-PC'\002C ip: '10.0.75.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_92'\000ADriver info: driver.version: RemoteWebDriver,AppDemo.tearDown:135 \00BB WebDriver org.apache.http.conn.HttpHostConnectException...,org.openqa.selenium.WebDriverException: \000Aorg.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'KONGXUFENG-PC'\002C ip: '10.0.75.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_92'\000ADriver info: driver.version: RemoteWebDriver\000A\0009at utils.AppDemo.tearDown(AppDemo.java:135)\000ACaused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect\000A\0009at utils.AppDemo.tearDown(AppDemo.java:135)\000ACaused by: java.net.ConnectException: Connection refused: connect\000A\0009at utils.AppDemo.tearDown(AppDemo.java:135)\000A
+
+

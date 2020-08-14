@@ -1,0 +1,17 @@
+# Created at 2020-05-22T17:01:44.120
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+# Created at 2020-05-22T17:01:44.649
+Unexpected IOException: 9,1,utils.AppDemo,plus(utils.AppDemo),null,An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 256 milliseconds\000AFor documentation on this error\002C please visit: http://seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'KONGXUFENG-PC'\002C ip: '10.0.75.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_92'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities [{appPackage=com.seeyon.cmp\002C networkConnectionEnabled=true\002C warnings={}\002C appWaitActivity=com.seeyon.cmp.ui.main.MainActivity\002C databaseEnabled=false\002C deviceName=G6DAJZLJU8NVVWFA\002C platform=LINUX\002C appActivity=com.seeyon.cmp.ui.LoadActivity\002C desired={appPackage=com.seeyon.cmp\002C appActivity=com.seeyon.cmp.ui.LoadActivity\002C platformVersion=5.1.1\002C appWaitActivity=com.seeyon.cmp.ui.main.MainActivity\002C browserName=\002C sessionOverride=true\002C unicodeKeyboard=true\002C platformName=Android\002C deviceName=G6DAJZLJU8NVVWFA\002C resetKeyboard=true}\002C platformVersion=8.1.0\002C webStorageEnabled=false\002C locationContextEnabled=false\002C browserName=\002C takesScreenshot=true\002C javascriptEnabled=true\002C sessionOverride=true\002C unicodeKeyboard=true\002C platformName=Android\002C resetKeyboard=true}]\000ASession ID: a48c0df0-5920-4d30-94d9-567e01e8dc53\000A*** Element info: {Using=xpath\002C value=//android.widget.TextView[@text='\5DE5\4F5C\53F0']},null
+
+
+# Created at 2020-05-22T17:01:44.652
+Unexpected IOException: 5,1,utils.AppDemo,plus(utils.AppDemo),utils.AppDemo,null,null
+
+

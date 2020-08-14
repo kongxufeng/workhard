@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="努力工作">
+	<listeners>
+		<listener class-name="utils.TestListener" />
+	</listeners>
+
+        <test name="热爱工作" enabled="true">
+            <classes>
+                <class name="utils.AppDemo">
+                </class>
+            </classes>
+        </test>
+
+</suite>
