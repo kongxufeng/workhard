@@ -75,21 +75,28 @@ public class AppDemo {
 				driver.findElement(By.xpath("//android.view.View[@resource-id='map-now-address']")).click();
 				new WebDriverWait(driver, 30).until(
 						ExpectedConditions.visibilityOfElementLocated(By.xpath("//android.widget.ListView")));
+				int num = driver.findElements(By.xpath("//android.widget.ListView/android.view.View")).size();
                 //列表循环查找定位
-				for (int j=2 ;j<22 ;j++){
+				for (int j=2 ;j<num ;j++){
 					String m = String.valueOf(j);
 					String location = driver.findElement(By.xpath("//android.widget.ListView/android.view.View["+m+"]/android.view.View[1]")).getAttribute("name");
 					if (location.contains("航天云网大厦")){
 						driver.findElement(By.xpath("//android.widget.ListView/android.view.View["+m+"]/android.view.View[1]")).click();
 						break;
-					}else if (j==21){
+					}else if (j==num-1){
                         logger.info("********** 全部列表未找到,查询企业列表 **********");
-                        for (int k=2;k<22;k++){
-                            driver.findElement(By.xpath("//android.widget.TextView[@text='企业']")).click();
+                        driver.findElement(By.xpath("//android.view.View[@text='企业']")).click();
+                        new WebDriverWait(driver, 30).until(
+                                ExpectedConditions.visibilityOfElementLocated(By.xpath("//android.widget.ListView")));
+                        int num2 = driver.findElements(By.xpath("//android.widget.ListView/android.view.View")).size();
+                        for (int k=2;k<num2;k++){
                             String n = String.valueOf(k);
                             location = driver.findElement(By.xpath("//android.widget.ListView/android.view.View["+n+"]/android.view.View[1]")).getAttribute("name");
                             if (location.contains("航天云网大厦")){
-                                driver.findElement(By.xpath("//android.widget.ListView/android.view.View["+m+"]/android.view.View[1]")).click();
+                                driver.findElement(By.xpath("//android.widget.ListView/android.view.View["+n+"]/android.view.View[1]")).click();
+                                break;
+                            }else if (k == num2-1){
+                                driver.navigate().back();
                                 break;
                             }else {
                                 continue;
