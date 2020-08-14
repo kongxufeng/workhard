@@ -59,14 +59,14 @@ public class AppDemo {
 		Thread.sleep(random);
 		//Thread.sleep(5000);
 		driver.findElement(By.xpath("//android.widget.TextView[@text='工作台']")).click();
-		Thread.sleep(3000);
+        new WebDriverWait(driver, 30).until(
+                ExpectedConditions.visibilityOfElementLocated(By.xpath("//android.view.View[@text='签到']")));
 		driver.findElement(By.xpath("//android.view.View[@text='签到']")).click();
         logger.info("********** 等待获取定位信息 **********");
 		for(int i=0;i<5;i++){
 			//等待获取定位信息
 			new WebDriverWait(driver, 30).until(
 					ExpectedConditions.visibilityOfElementLocated(By.xpath("//android.view.View[@resource-id='map-now-address']")));
-
 			String text =driver.findElement(
 					By.xpath("//android.view.View[@resource-id='map-now-address']")).getAttribute("name");
 			logger.info("当前定位是："+text);
@@ -75,6 +75,7 @@ public class AppDemo {
 				driver.findElement(By.xpath("//android.view.View[@resource-id='map-now-address']")).click();
 				new WebDriverWait(driver, 30).until(
 						ExpectedConditions.visibilityOfElementLocated(By.xpath("//android.widget.ListView")));
+                //列表循环查找定位
 				for (int j=2 ;j<22 ;j++){
 					String m = String.valueOf(j);
 					String location = driver.findElement(By.xpath("//android.widget.ListView/android.view.View["+m+"]/android.view.View[1]")).getAttribute("name");
@@ -82,15 +83,26 @@ public class AppDemo {
 						driver.findElement(By.xpath("//android.widget.ListView/android.view.View["+m+"]/android.view.View[1]")).click();
 						break;
 					}else if (j==21){
-                        logger.info("********** 期望位置未找到点击返回 **********");
-						driver.navigate().back();
+                        logger.info("********** 全部列表未找到,查询企业列表 **********");
+                        for (int k=2;k<22;k++){
+                            driver.findElement(By.xpath("//android.widget.TextView[@text='企业']")).click();
+                            String n = String.valueOf(k);
+                            location = driver.findElement(By.xpath("//android.widget.ListView/android.view.View["+n+"]/android.view.View[1]")).getAttribute("name");
+                            if (location.contains("航天云网大厦")){
+                                driver.findElement(By.xpath("//android.widget.ListView/android.view.View["+m+"]/android.view.View[1]")).click();
+                                break;
+                            }else {
+                                continue;
+                            }
+                        }
 						break;
 					}else {
 						continue;
 					}
-				}//列表循环定位
+				}
 				break;
 			}else if (text.isEmpty()){
+			    Thread.sleep(5000);
 				continue;
 			}else {
 				break;
