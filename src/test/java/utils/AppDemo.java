@@ -15,7 +15,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.net.URL;
-import java.util.Calendar;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Random;
 
 public class AppDemo {
@@ -116,15 +117,16 @@ public class AppDemo {
 			}
 		}
 
-		//获取当前系统时间，小时
+		//获取当前系统时间
 		Thread.sleep(3000);
-		Calendar cal=Calendar.getInstance();
-		int hour  = cal.get(Calendar.HOUR_OF_DAY);
-		logger.info("当前时间 = **********" + hour);
+		SimpleDateFormat df = new SimpleDateFormat("HH:mm");// 设置日期格式
+		Date now =df.parse(df.format(new Date()));
+		Date start = df.parse("08:30");
+		Date end = df.parse("15:30");
+		logger.info("当前时间 = **********" + now);
 		//判断是否到打卡时间
-		try {
-			if( hour < 9){
-				//小于9点，点击签到
+		if( now.before(start) || now.after(end) ){
+				//点击签到
 				driver.findElement(By.xpath("//android.view.View[@resource-id='item-button-clocking']/android.view.View[1]")).click();
 				Thread.sleep(3000);
 				String text = driver.findElement(By.xpath("//android.view.View[@resource-id='item-button-clocking']/preceding-sibling::android.view.View[3]")).getAttribute("name");
@@ -132,22 +134,13 @@ public class AppDemo {
 					logger.info("********** 成功 **********");
 					flag = true;
 				}else{
+					logger.info("**********"+text);
 					flag = false;
 				}
-			}else if (hour>=17){
-				//大于等于17点，点击签退
-				driver.findElement(By.xpath("//android.view.View[@resource-id='item-button-clocking']/android.view.View[1]")).click();
-				Thread.sleep(1000);
-				logger.info("********** 成功 **********");
-				flag = true;
-			}else {
+		}else {
 				//时间没到不点击，返回失败
-				logger.info("当前时间 = **********" + hour + "没到打卡时间");
+				logger.info("当前时间 = **********" + now + "没到时间");
 				flag = false;
-			}
-		}catch (Exception e){
-			logger.info("异常");
-			flag = false;
 		}
 		Assert.assertTrue(flag);
 	}
