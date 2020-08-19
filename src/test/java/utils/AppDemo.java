@@ -122,7 +122,7 @@ public class AppDemo {
 		SimpleDateFormat df = new SimpleDateFormat("HH:mm");// 设置日期格式
 		Date now =df.parse(df.format(new Date()));
 		Date start = df.parse("08:30");
-		Date end = df.parse("15:30");
+		Date end = df.parse("17:30");
 		logger.info("当前时间 = **********" + now);
 		//判断是否到打卡时间
 		if( now.before(start) || now.after(end) ){
