@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2982c774-cd8f-48ea-b77a-00ef6934c699" name="Default Changelist" comment="">
+    <list default="true" id="2982c774-cd8f-48ea-b77a-00ef6934c699" name="Default Changelist" comment="优化时间判断代码">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utils/AppDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/AppDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/workhard.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/workhard.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/AppDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/AppDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/WrappedRemoteWebDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/WrappedRemoteWebDriver.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,11 +25,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/utils/AppDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="153" column="37" lean-forward="true" selection-start-line="153" selection-start-column="37" selection-end-line="153" selection-end-column="37" />
+            <state relative-caret-position="406">
+              <caret line="139" column="24" lean-forward="true" selection-start-line="139" selection-start-column="24" selection-end-line="139" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2409#5023#1" />
               </folding>
             </state>
           </provider>
@@ -34,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/utils/WrappedRemoteWebDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-227">
-              <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+            <state relative-caret-position="725">
+              <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/../repository2/org/seleniumhq/selenium/selenium-remote-driver/3.4.0/selenium-remote-driver-3.4.0.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
+            <state relative-caret-position="6025">
               <caret line="330" column="25" selection-start-line="330" selection-start-column="25" selection-end-line="330" selection-end-column="25" />
             </state>
           </provider>
@@ -147,10 +150,10 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="102" />
-    <option name="y" value="57" />
-    <option name="width" value="1637" />
-    <option name="height" value="947" />
+    <option name="x" value="662" />
+    <option name="y" value="95" />
+    <option name="width" value="1546" />
+    <option name="height" value="924" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -402,7 +405,8 @@
       <workItem from="1592300423336" duration="373000" />
       <workItem from="1597286358573" duration="3055000" />
       <workItem from="1597371788705" duration="7303000" />
-      <workItem from="1597819555386" duration="6507000" />
+      <workItem from="1597819555386" duration="7805000" />
+      <workItem from="1597884913966" duration="1060000" />
     </task>
     <task id="LOCAL-00001" summary="删除tess4j">
       <created>1589781410526</created>
@@ -551,7 +555,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597385520211</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="优化时间判断代码">
+      <created>1597828608569</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1597828608569</updated>
+    </task>
+    <task id="LOCAL-00023" summary="优化时间判断代码">
+      <created>1597828869176</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1597828869176</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -587,7 +605,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148386000" />
+    <option name="totallyTimeSpent" value="150744000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -599,10 +617,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="102" y="57" width="1637" height="947" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15409005" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13059701" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -612,7 +630,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49848577" weight="0.32804877" />
-      <window_info anchor="bottom" x="494" y="391" width="932" height="257" id="Run" order="2" sideWeight="0.80810237" visible="true" weight="0.3147208" />
+      <window_info anchor="bottom" x="494" y="391" width="932" height="257" id="Run" order="2" sideWeight="0.80810237" weight="0.27647716" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8480138" weight="0.28807107" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -666,21 +684,10 @@
     <MESSAGE value="添加日志信息" />
     <MESSAGE value="修改driver监控" />
     <MESSAGE value="修改列表查询" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改列表查询" />
+    <MESSAGE value="优化时间判断代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化时间判断代码" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/utils/AppDemo.java</url>
-          <line>149</line>
-          <properties class="utils.AppDemo" method="main">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="TestNG">
         <watch expression="((AndroidDriver)driver).METASTATE_PARAM" custom="io.appium.java_client.android.AndroidDriver" />
@@ -870,31 +877,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../repository2/org/seleniumhq/selenium/selenium-remote-driver/3.4.0/selenium-remote-driver-3.4.0.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/AppDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="330" column="25" selection-start-line="330" selection-start-column="25" selection-end-line="330" selection-end-column="25" />
+        <state relative-caret-position="406">
+          <caret line="139" column="24" lean-forward="true" selection-start-line="139" selection-start-column="24" selection-end-line="139" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/utils/WrappedRemoteWebDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-227">
-          <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+        <state relative-caret-position="725">
+          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/AppDemo.java">
+    <entry file="jar://$PROJECT_DIR$/../repository2/org/seleniumhq/selenium/selenium-remote-driver/3.4.0/selenium-remote-driver-3.4.0.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="153" column="37" lean-forward="true" selection-start-line="153" selection-start-column="37" selection-end-line="153" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2409#5023#1" />
-          </folding>
+        <state relative-caret-position="6025">
+          <caret line="330" column="25" selection-start-line="330" selection-start-column="25" selection-end-line="330" selection-end-column="25" />
         </state>
       </provider>
     </entry>
