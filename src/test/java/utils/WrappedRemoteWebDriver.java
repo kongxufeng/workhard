@@ -11,6 +11,8 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.io.File;
 import java.net.URL;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -34,6 +36,9 @@ public class WrappedRemoteWebDriver extends AndroidDriver {
 			logger.info("通过"+by+"方法查找"+using+"元素，已找到"+elements.size()+"个");
 		}catch(Exception e) {
 			logger.error("通过"+by+"方法查找"+using+"元素时发生异常，原因："+e.getMessage());
+			SimpleDateFormat df = new SimpleDateFormat("yyyyMMddHHmmss");// 设置日期格式
+			String time = df.format(new Date());
+			takeScreenShot(time);
 		}
 		return elements;
 	}
@@ -46,6 +51,9 @@ public class WrappedRemoteWebDriver extends AndroidDriver {
 			logger.info("通过"+by+"方法查找"+using+"元素，已找到");
 		}catch(Exception e) {
 			logger.error("通过"+by+"方法查找"+using+"元素时发生异常，原因："+e.getMessage());
+			SimpleDateFormat df = new SimpleDateFormat("yyyyMMddHHmmss");// 设置日期格式
+			String time = df.format(new Date());
+			takeScreenShot(time);
 		}
 		return element;
 	}
