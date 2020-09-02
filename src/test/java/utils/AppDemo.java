@@ -58,12 +58,12 @@ public class AppDemo {
 		//int random = 5000;
 		logger.info("等待时间"+random);
 		Thread.sleep(random);
-		Boolean a = driver.findElement(By.xpath("//android.widget.TextView[@text='跳过']")).isDisplayed();
-		if (a = true){
+		Boolean a = driver.findElements(By.xpath("//android.widget.TextView[@text='跳过']")).isEmpty();
+		if (a = false){
 			driver.findElement(By.xpath("//android.widget.TextView[@text='跳过']")).click();
 		}
-		Boolean s = driver.findElement(By.xpath("//android.widget.TextView[@text='返回登录页']")).isDisplayed();
-		if (s =true){
+		Boolean s = driver.findElements(By.xpath("//android.widget.TextView[@text='返回登录页']")).isEmpty();
+		if (s =false){
 			driver.findElement(By.xpath("//android.widget.TextView[@text='返回登录页']")).click();
 			driver.findElement(By.xpath("//*[contains(@text,'登录')]")).click();
 		}

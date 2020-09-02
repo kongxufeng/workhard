@@ -3,7 +3,6 @@
 	<listeners>
 		<listener class-name="utils.TestListener" />
 	</listeners>
-
         <test name="热爱工作" enabled="true">
             <classes>
                 <class name="utils.AppDemo">

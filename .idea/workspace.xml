@@ -3,9 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="2982c774-cd8f-48ea-b77a-00ef6934c699" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/rolling.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/rolling.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/test.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/AppDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/AppDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-utils.AppDemo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-utils.AppDemo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/努力工作/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/努力工作/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/努力工作/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/努力工作/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/努力工作/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/努力工作/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/努力工作/热爱工作.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/努力工作/热爱工作.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/努力工作/热爱工作.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/努力工作/热爱工作.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/AppDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/AppDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/WrappedRemoteWebDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/WrappedRemoteWebDriver.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,11 +34,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/utils/AppDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="65" column="12" lean-forward="true" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
+            <state relative-caret-position="1068">
+              <caret line="142" column="28" lean-forward="true" selection-start-line="142" selection-start-column="28" selection-end-line="142" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3228#4941#1" />
+                <element signature="e#2440#5054#1" />
               </folding>
             </state>
           </provider>
@@ -139,9 +150,9 @@
     <option name="jreName" value="#JAVA_HOME" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="147" />
-    <option name="y" value="37" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="369" />
+    <option name="y" value="44" />
     <option name="width" value="1731" />
     <option name="height" value="924" />
   </component>
@@ -400,7 +411,7 @@
       <workItem from="1598342906418" duration="57000" />
       <workItem from="1598495175347" duration="1313000" />
       <workItem from="1598576270119" duration="13000" />
-      <workItem from="1599011820504" duration="2878000" />
+      <workItem from="1599011820504" duration="7001000" />
     </task>
     <task id="LOCAL-00001" summary="删除tess4j">
       <created>1589781410526</created>
@@ -577,7 +588,21 @@
       <option name="project" value="LOCAL" />
       <updated>1598506909442</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="添加登录过期判断">
+      <created>1599016718484</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1599016718484</updated>
+    </task>
+    <task id="LOCAL-00027" summary="添加断言">
+      <created>1599034685339</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1599034685339</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -613,7 +638,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155226000" />
+    <option name="totallyTimeSpent" value="159349000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -625,10 +650,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="147" y="37" width="1731" height="924" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15380011" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1369936" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -695,19 +720,11 @@
     <MESSAGE value="优化时间判断代码" />
     <MESSAGE value="去掉验证" />
     <MESSAGE value="添加截图" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加截图" />
+    <MESSAGE value="添加登录过期判断" />
+    <MESSAGE value="添加断言" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加断言" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/utils/AppDemo.java</url>
-          <line>72</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="TestNG">
         <watch expression="((AndroidDriver)driver).METASTATE_PARAM" custom="io.appium.java_client.android.AndroidDriver" />
@@ -904,23 +921,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/AppDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="65" column="12" lean-forward="true" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3228#4941#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/utils/WrappedRemoteWebDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="625">
           <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/AppDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1068">
+          <caret line="142" column="28" lean-forward="true" selection-start-line="142" selection-start-column="28" selection-end-line="142" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2440#5054#1" />
           </folding>
         </state>
       </provider>
