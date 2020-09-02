@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2982c774-cd8f-48ea-b77a-00ef6934c699" name="Default Changelist" comment="优化时间判断代码">
+    <list default="true" id="2982c774-cd8f-48ea-b77a-00ef6934c699" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/WrappedRemoteWebDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/WrappedRemoteWebDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/workhard.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/workhard.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/AppDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/AppDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/WrappedRemoteWebDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/WrappedRemoteWebDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/rolling.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/rolling.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/test.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/AppDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/AppDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/utils/AppDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-352">
-              <caret line="116" column="13" lean-forward="true" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
+            <state relative-caret-position="375">
+              <caret line="65" column="12" lean-forward="true" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3228#4941#1" />
@@ -35,10 +33,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/utils/WrappedRemoteWebDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="950">
+            <state relative-caret-position="625">
               <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -87,8 +85,8 @@
         <option value="$PROJECT_DIR$/src/test/java/ragz/ragz.java" />
         <option value="$PROJECT_DIR$/src/test/java/utils/Main.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/utils/AppDemo.java" />
         <option value="$PROJECT_DIR$/src/test/java/utils/WrappedRemoteWebDriver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/utils/AppDemo.java" />
       </list>
     </option>
   </component>
@@ -142,9 +140,9 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="465" />
-    <option name="y" value="90" />
-    <option name="width" value="1546" />
+    <option name="x" value="147" />
+    <option name="y" value="37" />
+    <option name="width" value="1731" />
     <option name="height" value="924" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -153,6 +151,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,7 +189,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -237,7 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AppDemo">
+  <component name="RunManager" selected="Maven.workhard [test]">
     <configuration name="AppDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="utils.AppDemo" />
       <module name="workhard" />
@@ -400,7 +398,9 @@
       <workItem from="1597819555386" duration="7805000" />
       <workItem from="1597884913966" duration="1281000" />
       <workItem from="1598342906418" duration="57000" />
-      <workItem from="1598495175347" duration="1086000" />
+      <workItem from="1598495175347" duration="1313000" />
+      <workItem from="1598576270119" duration="13000" />
+      <workItem from="1599011820504" duration="2878000" />
     </task>
     <task id="LOCAL-00001" summary="删除tess4j">
       <created>1589781410526</created>
@@ -570,7 +570,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597886002250</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="添加截图">
+      <created>1598506909442</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1598506909442</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -606,7 +613,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152108000" />
+    <option name="totallyTimeSpent" value="155226000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -618,10 +625,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="465" y="90" width="1546" height="924" extended-state="0" />
+    <frame x="147" y="37" width="1731" height="924" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16890982" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15380011" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -632,7 +639,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49848577" weight="0.32804877" />
       <window_info anchor="bottom" x="494" y="391" width="932" height="257" id="Run" order="2" sideWeight="0.80810237" weight="0.27647716" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8480138" weight="0.28807107" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8480138" weight="0.25490198" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.496063" weight="0.32643119" />
@@ -687,9 +694,20 @@
     <MESSAGE value="修改列表查询" />
     <MESSAGE value="优化时间判断代码" />
     <MESSAGE value="去掉验证" />
-    <option name="LAST_COMMIT_MESSAGE" value="去掉验证" />
+    <MESSAGE value="添加截图" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加截图" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/utils/AppDemo.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="TestNG">
         <watch expression="((AndroidDriver)driver).METASTATE_PARAM" custom="io.appium.java_client.android.AndroidDriver" />
@@ -888,8 +906,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/utils/AppDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-352">
-          <caret line="116" column="13" lean-forward="true" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
+        <state relative-caret-position="375">
+          <caret line="65" column="12" lean-forward="true" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3228#4941#1" />
@@ -899,7 +917,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/utils/WrappedRemoteWebDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
+        <state relative-caret-position="625">
           <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />

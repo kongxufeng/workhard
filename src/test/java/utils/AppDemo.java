@@ -29,7 +29,7 @@ public class AppDemo {
 		DesiredCapabilities cap = new DesiredCapabilities();
 		cap.setCapability(CapabilityType.BROWSER_NAME, "");
 		cap.setCapability("platformName", "Android"); //指定测试平台
-		cap.setCapability("deviceName", "G6DAJZLJU8NVVWFA"); //指定测试机的ID,通过adb命令`adb devices`获取
+		cap.setCapability("deviceName", "1859c24b"); //指定测试机的ID,通过adb命令`adb devices`获取G6DAJZLJU8NVVWFA
 		//cap.setCapability("platformVersion", "5.1.1");
 
 		//将上面获取到的包名和Activity名设置为值
@@ -54,11 +54,22 @@ public class AppDemo {
 	public void plus()  throws Exception {
 
 		boolean flag = true;
-		int random = new Random().nextInt(40000)+5000;
+		int random = new Random().nextInt(10000)+5000;
 		//int random = 5000;
 		logger.info("等待时间"+random);
 		Thread.sleep(random);
+		Boolean a = driver.findElement(By.xpath("//android.widget.TextView[@text='跳过']")).isDisplayed();
+		if (a = true){
+			driver.findElement(By.xpath("//android.widget.TextView[@text='跳过']")).click();
+		}
+		Boolean s = driver.findElement(By.xpath("//android.widget.TextView[@text='返回登录页']")).isDisplayed();
+		if (s =true){
+			driver.findElement(By.xpath("//android.widget.TextView[@text='返回登录页']")).click();
+			driver.findElement(By.xpath("//*[contains(@text,'登录')]")).click();
+		}
 		//Thread.sleep(5000);
+		new WebDriverWait(driver, 30).until(
+				ExpectedConditions.visibilityOfElementLocated(By.xpath("//android.widget.TextView[@text='工作台']")));
 		driver.findElement(By.xpath("//android.widget.TextView[@text='工作台']")).click();
         new WebDriverWait(driver, 30).until(
                 ExpectedConditions.visibilityOfElementLocated(By.xpath("//android.view.View[@text='签到']")));

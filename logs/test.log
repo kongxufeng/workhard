@@ -1,6 +1,12 @@
-17:45:48.086 INFO  utils.AppDemo - 等待时间5000
-17:45:54.452 INFO  utils.AppDemo - 当前定位是：
-17:46:05.271 INFO  utils.AppDemo - 当前定位是：北京市石景山区八大处路49号楼靠近点石商务公园
-17:46:12.458 INFO  utils.AppDemo - 当前定位是：航天云网大厦
-17:46:15.458 INFO  utils.AppDemo - 当前时间 = **********17
-17:46:17.811 INFO  utils.AppDemo - ********** 成功 **********
+10:00:33.291 INFO  utils.AppDemo - 等待时间22474
+10:00:55.972 ERROR utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='工作台']元素时发生异常，原因：An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 164 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'KONGXUFENG-PC', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_92'
+Driver info: utils.WrappedRemoteWebDriver
+Capabilities [{appPackage=com.seeyon.cmp, networkConnectionEnabled=true, noReset=true, warnings={}, appWaitActivity=com.seeyon.cmp.ui.main.MainActivity, databaseEnabled=false, deviceName=1859c24b, platform=LINUX, appActivity=com.seeyon.cmp.ui.LoadActivity, desired={appPackage=com.seeyon.cmp, appActivity=com.seeyon.cmp.ui.LoadActivity, noReset=true, appWaitActivity=com.seeyon.cmp.ui.main.MainActivity, browserName=, unicodeKeyboard=true, platformName=Android, deviceName=1859c24b, resetKeyboard=true}, platformVersion=9, webStorageEnabled=false, locationContextEnabled=false, browserName=, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, resetKeyboard=true}]
+Session ID: 84a5f676-36e2-49e9-be44-43a6760322f3
+*** Element info: {Using=xpath, value=//android.widget.TextView[@text='工作台']}
+10:00:59.795 INFO  utils.WrappedRemoteWebDriver - screenshots目录不存在，创建该目录
+10:00:59.798 INFO  utils.WrappedRemoteWebDriver - 截屏保存成功，保存在D:\Program Files\Git\workhard\screenshots\20200902100055
