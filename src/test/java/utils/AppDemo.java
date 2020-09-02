@@ -54,7 +54,7 @@ public class AppDemo {
 	public void plus()  throws Exception {
 
 		boolean flag = true;
-		int random = new Random().nextInt(10000)+5000;
+		int random = new Random().nextInt(20000)+5000;
 		//int random = 5000;
 		logger.info("等待时间"+random);
 		Thread.sleep(random);
@@ -137,19 +137,26 @@ public class AppDemo {
 		logger.info("当前时间 = **********" + now);
 		//判断是否到打卡时间
 		if( now.before(start) || now.after(end) ){
-				//点击签到
-				driver.findElement(By.xpath("//android.view.View[@resource-id='item-button-clocking']/android.view.View[1]")).click();
-				Thread.sleep(3000);
-				/*String text = driver.findElement(By.xpath("//android.view.View[@resource-id='item-button-clocking']/preceding-sibling::android.view.View[3]")).getAttribute("name");
-				if (text.contains("正常")){
+			//点击签到
+			driver.findElement(By.xpath("//android.view.View[@resource-id='item-button-clocking']/android.view.View[1]")).click();
+			Thread.sleep(3000);
+			String text ="";
+			if (now.before(start)){
+				 text = driver.findElement(By.xpath("//android.view.View[@resource-id='clock-page']/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[3]")).getAttribute("name");
+			}else {
+				text = driver.findElement(By.xpath("//android.view.View[@resource-id='clock-page']/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[5]")).getAttribute("name");
+			}
+
+			if (text.contains("正常")){
 					logger.info("********** 成功 **********");
 					flag = true;
-				}else{
-					logger.info("**********"+text);
+			}else{
+					logger.info("未检测到正常**********"+text);
 					flag = false;
-				}*/
+			}
 			flag = true;
-		}else {
+		}
+		else {
 				//时间没到不点击，返回失败
 				logger.info("当前时间 = **********" + now + "没到时间");
 				flag = false;
