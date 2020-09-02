@@ -1,0 +1,14 @@
+/target/**
+/image/**
+/allure-results/**
+/test-output/**
+/testng2.xml
+/screenshots/**
+/logs/**
+/erropage/**
+/target/
+/bin/
+/.project
+/.settings/
+/.classpath
+.idea/
