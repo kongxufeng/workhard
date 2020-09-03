@@ -142,7 +142,7 @@ public class AppDemo {
 			Thread.sleep(3000);
 			String text ="";
 			if (now.before(start)){
-				 text = driver.findElement(By.xpath("//android.view.View[@resource-id='clock-page']/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[3]")).getAttribute("name");
+				 text = driver.findElement(By.xpath("//android.view.View[@resource-id='clock-page']/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[2]")).getAttribute("name");
 			}else {
 				text = driver.findElement(By.xpath("//android.view.View[@resource-id='clock-page']/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[5]")).getAttribute("name");
 			}
@@ -151,15 +151,14 @@ public class AppDemo {
 					logger.info("********** 成功 **********");
 					flag = true;
 			}else{
-					logger.info("未检测到正常**********"+text);
+					logger.error("未检测到正常**********"+text);
 					flag = false;
 			}
-			flag = true;
 		}
 		else {
-				//时间没到不点击，返回失败
-				logger.info("当前时间 = **********" + now + "没到时间");
-				flag = false;
+		    //时间没到不点击，返回失败
+            logger.error("当前时间 = **********" + now + "没到时间");
+            flag = false;
 		}
 		Assert.assertTrue(flag);
 	}
