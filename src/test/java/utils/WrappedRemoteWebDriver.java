@@ -3,10 +3,7 @@ package utils;
 import io.appium.java_client.android.AndroidDriver;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.Capabilities;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.io.File;
@@ -59,7 +56,13 @@ public class WrappedRemoteWebDriver extends AndroidDriver {
 	}
 	
 	public void takeScreenShot(String filename) {
-		File screenShot = ((TakesScreenshot)this).getScreenshotAs(OutputType.FILE);
+		File screenShot = null;
+		try {
+			screenShot = ((TakesScreenshot) this).getScreenshotAs(OutputType.FILE);
+		} catch (TimeoutException e) {
+			System.out.println("时间超时" + filename + "失败");
+			e.printStackTrace();
+		}
 		File directory = new File("screenshots");
 		if(!directory.exists() || !directory.isDirectory()){
 			logger.info("screenshots目录不存在，创建该目录");
