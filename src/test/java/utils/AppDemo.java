@@ -65,7 +65,8 @@ public class AppDemo {
 		Boolean s = driver.findElements(By.xpath("//android.widget.TextView[@text='返回登录页']")).isEmpty();
 		if (s == false){
 			driver.findElement(By.xpath("//android.widget.TextView[@text='返回登录页']")).click();
-			driver.findElement(By.xpath("//*[contains(@text,'登录')]")).click();
+			Thread.sleep(2000);
+			driver.findElement(By.xpath("//*[stars-with(@text,'登录')]")).click();
 		}
 		//Thread.sleep(5000);
 		new WebDriverWait(driver, 30).until(
