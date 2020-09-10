@@ -36,9 +36,9 @@ public class AppDemo {
 		cap.setCapability("appPackage", "com.seeyon.cmp");
 		cap.setCapability("appActivity", "com.seeyon.cmp.ui.LoadActivity");
 
-//        //A new session could not be created的解决方法
+       //A new session could not be created的解决方法
         cap.setCapability("appWaitActivity", "com.seeyon.cmp.ui.main.MainActivity");
-//        //每次启动时覆盖session，否则第二次后运行会报错不能新建session
+        //每次启动时覆盖session，否则第二次后运行会报错不能新建session
         //cap.setCapability("sessionOverride", true);
 		cap.setCapability("noReset", true);
         //解锁
@@ -53,7 +53,7 @@ public class AppDemo {
 	@Test
 	public void plus()  throws Exception {
 
-		boolean flag = true;
+		boolean flag = false;
 		int random = new Random().nextInt(20000)+5000;
 		//int random = 5000;
 		logger.info("等待时间"+random);
@@ -66,7 +66,7 @@ public class AppDemo {
 		if (s == false){
 			driver.findElement(By.xpath("//android.widget.TextView[@text='返回登录页']")).click();
 			Thread.sleep(2000);
-			driver.findElement(By.xpath("//*[stars-with(@text,'登录')]")).click();
+			driver.findElement(By.xpath("//*[starts-with(@text,'登录')]")).click();
 		}
 		//Thread.sleep(5000);
 		new WebDriverWait(driver, 30).until(
