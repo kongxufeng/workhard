@@ -13,7 +13,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
+import io.appium.*;
 import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -29,7 +29,7 @@ public class AppDemo {
 		DesiredCapabilities cap = new DesiredCapabilities();
 		cap.setCapability(CapabilityType.BROWSER_NAME, "");
 		cap.setCapability("platformName", "Android"); //指定测试平台
-		cap.setCapability("deviceName", "1859c24b"); //指定测试机的ID,通过adb命令`adb devices`获取G6DAJZLJU8NVVWFA
+		cap.setCapability("deviceName", "G6DAJZLJU8NVVWFA"); //1859c24b指定测试机的ID,通过adb命令`adb devices`获取G6DAJZLJU8NVVWFA
 		//cap.setCapability("platformVersion", "5.1.1");
 
 		//将上面获取到的包名和Activity名设置为值
@@ -37,22 +37,28 @@ public class AppDemo {
 		cap.setCapability("appActivity", "com.seeyon.cmp.ui.LoadActivity");
 
        //A new session could not be created的解决方法
-        cap.setCapability("appWaitActivity", "com.seeyon.cmp.ui.main.MainActivity");
+        //cap.setCapability("appWaitActivity", "com.seeyon.cmp.ui.main.MainActivity");
         //每次启动时覆盖session，否则第二次后运行会报错不能新建session
         //cap.setCapability("sessionOverride", true);
 		cap.setCapability("noReset", true);
         //解锁
+
 		//cap.setCapability("unlockType", "pattern");
 		//cap.setCapability("unlockKey","666888");
 		cap.setCapability("unicodeKeyboard", "true");
 		cap.setCapability("resetKeyboard", "true");
 
-		driver = new WrappedRemoteWebDriver(new URL("http://127.0.0.1:4723/wd/hub"), cap);
+        driver = new WrappedRemoteWebDriver(new URL("http://127.0.0.1:4723/wd/hub"), cap);
+        if (!driver.currentActivity().contains("com.seeyon.cmp.ui.LoadActivity")){
+        int h = driver.manage().window().getSize().height;
+        int w = driver.manage().window().getSize().width;
+        driver.swipe(new Double(w*0.5).intValue(),new Double(h*0.75).intValue(),new Double(w*0.5).intValue(),new Double(h*0.25).intValue() ,1000);
+
+        }
 	}
 
 	@Test
 	public void plus()  throws Exception {
-
 		boolean flag = false;
 		int random = new Random().nextInt(20000)+5000;
 		//int random = 5000;
