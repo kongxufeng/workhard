@@ -5,6 +5,7 @@ import io.appium.java_client.android.AndroidDriver;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -17,6 +18,7 @@ import org.testng.annotations.Test;
 import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.List;
 import java.util.Random;
 
 @Listeners({TestFailListener.class})
@@ -61,6 +63,7 @@ public class AppDemo {
 		logger.info("等待时间1"+random);
 		Thread.sleep(random);
         if (!driver.currentActivity().contains("com.seeyon.cmp.ui.main.MainActivity")){
+			logger.info("上滑解锁");
             int h = driver.manage().window().getSize().height;
             int w = driver.manage().window().getSize().width;
             driver.swipe(new Double(w*0.5).intValue(),new Double(h*0.75).intValue(),new Double(w*0.5).intValue(),new Double(h*0.25).intValue() ,1000);
@@ -96,27 +99,27 @@ public class AppDemo {
 				driver.findElement(By.xpath("//android.view.View[@resource-id='map-now-address']")).click();
 				new WebDriverWait(driver, 30).until(
 						ExpectedConditions.visibilityOfElementLocated(By.xpath("//android.widget.ListView")));
-				int num = driver.findElements(By.xpath("//android.widget.ListView/android.view.View")).size();
+				List<WebElement> element = driver.findElements(By.xpath("//android.widget.ListView/android.view.View"));
                 //列表循环查找定位
-				for (int j=2 ;j<num ;j++){
-					String m = String.valueOf(j);
-					String location = driver.findElement(By.xpath("//android.widget.ListView/android.view.View["+m+"]/android.view.View[1]")).getAttribute("name");
+				for (int j=2 ;j<element.size() ;j++){
+					WebElement el= element.get(j).findElement(By.xpath("/android.view.View[1]"));
+					String location = el.getAttribute("name");
 					if (location.contains("航天云网大厦")){
-						driver.findElement(By.xpath("//android.widget.ListView/android.view.View["+m+"]/android.view.View[1]")).click();
+						el.click();
 						break;
-					}else if (j==num-1){
+					}else if (j==element.size()-1){
                         logger.info("********** 全部列表未找到,查询企业列表 **********");
                         driver.findElement(By.xpath("//android.view.View[@text='企业']")).click();
                         new WebDriverWait(driver, 30).until(
                                 ExpectedConditions.visibilityOfElementLocated(By.xpath("//android.widget.ListView")));
-                        int num2 = driver.findElements(By.xpath("//android.widget.ListView/android.view.View")).size();
-                        for (int k=2;k<num2;k++){
-                            String n = String.valueOf(k);
-                            location = driver.findElement(By.xpath("//android.widget.ListView/android.view.View["+n+"]/android.view.View[1]")).getAttribute("name");
-                            if (location.contains("航天云网大厦")){
-                                driver.findElement(By.xpath("//android.widget.ListView/android.view.View["+n+"]/android.view.View[1]")).click();
-                                break;
-                            }else if (k == num2-1){
+						List<WebElement> element2 = driver.findElements(By.xpath("//android.widget.ListView/android.view.View"));
+                        for (int k=2;k<element2.size();k++){
+							WebElement el2= element2.get(k).findElement(By.xpath("/android.view.View[1]"));
+							location = el2.getAttribute("name");
+							if (location.contains("航天云网大厦")){
+                                el2.click();
+								break;
+                            }else if (k == element2.size()-1){
                                 driver.navigate().back();
                                 break;
                             }else {
