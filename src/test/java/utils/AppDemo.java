@@ -12,13 +12,14 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import io.appium.*;
 import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Random;
 
+@Listeners({TestFailListener.class})
 public class AppDemo {
 	public AndroidDriver driver;
 	Logger logger = LogManager.getLogger();
@@ -49,17 +50,17 @@ public class AppDemo {
 		cap.setCapability("resetKeyboard", "true");
 
         driver = new WrappedRemoteWebDriver(new URL("http://127.0.0.1:4723/wd/hub"), cap);
-        if (!driver.currentActivity().contains("com.seeyon.cmp.ui.LoadActivity")){
-        int h = driver.manage().window().getSize().height;
-        int w = driver.manage().window().getSize().width;
-        driver.swipe(new Double(w*0.5).intValue(),new Double(h*0.75).intValue(),new Double(w*0.5).intValue(),new Double(h*0.25).intValue() ,1000);
 
-        }
 	}
 
 	@Test
 	public void plus()  throws Exception {
 		boolean flag = false;
+        if (!driver.currentActivity().contains("com.seeyon.cmp.ui.main.MainActivity")){
+            int h = driver.manage().window().getSize().height;
+            int w = driver.manage().window().getSize().width;
+            driver.swipe(new Double(w*0.5).intValue(),new Double(h*0.75).intValue(),new Double(w*0.5).intValue(),new Double(h*0.25).intValue() ,1000);
+        }
 		int random = new Random().nextInt(20000)+5000;
 		//int random = 5000;
 		logger.info("等待时间"+random);
@@ -74,7 +75,6 @@ public class AppDemo {
 			Thread.sleep(2000);
 			driver.findElement(By.xpath("//*[starts-with(@text,'登录')]")).click();
 		}
-		//Thread.sleep(5000);
 		new WebDriverWait(driver, 30).until(
 				ExpectedConditions.visibilityOfElementLocated(By.xpath("//android.widget.TextView[@text='工作台']")));
 		driver.findElement(By.xpath("//android.widget.TextView[@text='工作台']")).click();
