@@ -102,7 +102,7 @@ public class AppDemo {
 				List<WebElement> element = driver.findElements(By.xpath("//android.widget.ListView/android.view.View"));
                 //列表循环查找定位
 				for (int j=2 ;j<element.size() ;j++){
-					WebElement el= element.get(j).findElement(By.xpath("//android.view.View[1]"));
+					WebElement el= By.xpath("//android.view.View[1]").findElement(element.get(j));
 					String location = el.getAttribute("name");
 					if (location.contains("航天云网大厦")){
 						el.click();
