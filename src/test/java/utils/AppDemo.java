@@ -102,10 +102,10 @@ public class AppDemo {
 				List<WebElement> element = driver.findElements(By.xpath("//android.widget.ListView/android.view.View"));
                 //列表循环查找定位
 				for (int j=2 ;j<element.size() ;j++){
-					WebElement el= By.xpath("//android.view.View[1]").findElement(element.get(j));
-					String location = el.getAttribute("name");
+					List<WebElement> el= element.get(j).findElements(By.xpath("//android.view.View"));
+					String location = el.get(1).getAttribute("name");
 					if (location.contains("航天云网大厦")){
-						el.click();
+						el.get(1).click();
 						break;
 					}else if (j==element.size()-1){
                         logger.info("********** 全部列表未找到,查询企业列表 **********");
