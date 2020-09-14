@@ -102,10 +102,11 @@ public class AppDemo {
 				List<WebElement> element = driver.findElements(By.xpath("//android.widget.ListView/android.view.View"));
                 //列表循环查找定位
 				for (int j=2 ;j<element.size() ;j++){
-					List<WebElement> el= element.get(j).findElements(By.xpath("//android.view.View"));
-					String location = el.get(1).getAttribute("name");
+					String m = String.valueOf(j);
+					WebElement element1= driver.findElement(By.xpath("//android.widget.ListView/android.view.View["+m+"]/android.view.View[1]"));
+					String location = element1.getAttribute("name");
 					if (location.contains("航天云网大厦")){
-						el.get(1).click();
+						driver.findElement(By.xpath("//android.widget.ListView/android.view.View["+m+"]/android.view.View[1]")).click();
 						break;
 					}else if (j==element.size()-1){
                         logger.info("********** 全部列表未找到,查询企业列表 **********");
@@ -114,10 +115,11 @@ public class AppDemo {
                                 ExpectedConditions.visibilityOfElementLocated(By.xpath("//android.widget.ListView")));
 						List<WebElement> element2 = driver.findElements(By.xpath("//android.widget.ListView/android.view.View"));
                         for (int k=2;k<element2.size();k++){
-							WebElement el2= element2.get(k).findElement(By.xpath("//android.view.View[1]"));
-							location = el2.getAttribute("name");
+							String n = String.valueOf(k);
+							WebElement element3 = driver.findElement(By.xpath("//android.widget.ListView/android.view.View["+n+"]/android.view.View[1]"));
+							location = element3.getAttribute("name");
 							if (location.contains("航天云网大厦")){
-                                el2.click();
+								driver.findElement(By.xpath("//android.widget.ListView/android.view.View["+n+"]/android.view.View[1]")).click();
 								break;
                             }else if (k == element2.size()-1){
                                 driver.navigate().back();
