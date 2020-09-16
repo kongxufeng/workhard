@@ -60,15 +60,16 @@ public class AppDemo {
 		boolean flag = false;
 		int random = new Random().nextInt(10000)+5000;
 		//int random = 5000;
-		logger.info("等待时间1"+random);
+		logger.info("等待时间1:"+random);
 		Thread.sleep(random);
         if (!driver.currentActivity().contains("com.seeyon.cmp.ui.main.MainActivity")){
 			logger.info("上滑解锁");
             int h = driver.manage().window().getSize().height;
             int w = driver.manage().window().getSize().width;
+            Thread.sleep(1000);
             driver.swipe(new Double(w*0.5).intValue(),new Double(h*0.75).intValue(),new Double(w*0.5).intValue(),new Double(h*0.25).intValue() ,1000);
         }
-		logger.info("等待时间2"+random);
+		logger.info("等待时间2:"+random);
 		Thread.sleep(random);
 		Boolean a = driver.findElements(By.xpath("//android.widget.TextView[@text='跳过']")).isEmpty();
 		if (a == false){
