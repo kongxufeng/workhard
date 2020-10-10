@@ -1,8 +1,13 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 65.058 s <<< FAILURE! - in TestSuite
-plus(utils.AppDemo)  Time elapsed: 30.39 s  <<< FAILURE!
-java.lang.NullPointerException
-	at utils.AppDemo.plus(AppDemo.java:62)
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 45.096 s <<< FAILURE! - in TestSuite
+setup(utils.AppDemo)  Time elapsed: 44.79 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+A new session could not be created. (Original error: com.seeyon.cmp/.ui.main.MainActivity never started. Current: com.seeyon.cmp/.ui.LoadActivity) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 41.91 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'KONGXUFENG-PC', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_92'
+Driver info: driver.version: WrappedRemoteWebDriver
+	at utils.AppDemo.setup(AppDemo.java:52)
 

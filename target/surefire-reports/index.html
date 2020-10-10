@@ -129,7 +129,7 @@
                   </a> <!-- plus -->
                   <span class="method-name">plus</span>
                   <div class="stack-trace">java.lang.NullPointerException
-	at utils.AppDemo.plus(AppDemo.java:62)
+	at utils.AppDemo.plus(AppDemo.java:88)
 ... Removed 29 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -147,7 +147,7 @@
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;努力工作&quot;&gt;
   &lt;listeners&gt;
-    &lt;listener class-name=&quot;utils.TestListener&quot;/&gt;
+    &lt;listener class-name=&quot;utils.TestFailListener&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;热爱工作&quot;&gt;
     &lt;classes&gt;
@@ -195,7 +195,7 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'plus')
 data.setCell(0, 2, 'utils.AppDemo')
-data.setCell(0, 3, 26576);
+data.setCell(0, 3, 26332);
 window.suiteTableData['努力工作']= { tableData: data, tableDiv: 'times-div-努力工作'}
 return data;
 }
@@ -235,11 +235,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">plus</span>
-                <span class="method-start">29317 ms</span>
+                <span class="method-start">32102 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">59770 ms</span>
+                <span class="method-start">63582 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

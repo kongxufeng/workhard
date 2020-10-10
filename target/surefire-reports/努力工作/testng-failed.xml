@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [努力工作]">
   <listeners>
-    <listener class-name="utils.TestListener"/>
+    <listener class-name="utils.TestFailListener"/>
   </listeners>
   <test thread-count="5" verbose="0" name="热爱工作(failed)">
     <classes>

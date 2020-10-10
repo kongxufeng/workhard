@@ -24,7 +24,7 @@ import java.util.Random;
 @Listeners({TestFailListener.class})
 public class AppDemo {
 	public AndroidDriver driver;
-	Logger logger = LogManager.getLogger();
+	public Logger logger = LogManager.getLogger();
 
 
 	@BeforeClass
@@ -36,8 +36,11 @@ public class AppDemo {
 		//cap.setCapability("platformVersion", "5.1.1");
 
 		//将上面获取到的包名和Activity名设置为值
-		cap.setCapability("appPackage", "com.seeyon.cmp");
-		cap.setCapability("appActivity", "com.seeyon.cmp.ui.LoadActivity");
+		//cap.setCapability("appPackage", "com.seeyon.cmp");
+		//cap.setCapability("appActivity", "com.seeyon.cmp.ui.LoadActivity");
+
+        cap.setCapability("appPackage", "com.seeyon.cmp");
+        cap.setCapability("appActivity", "com.seeyon.cmp.ui.LoadActivity");
 
        //A new session could not be created的解决方法
         //cap.setCapability("appWaitActivity", "com.seeyon.cmp.ui.main.MainActivity");

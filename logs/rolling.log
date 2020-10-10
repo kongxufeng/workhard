@@ -1195,3 +1195,200 @@ Session ID: 84a5f676-36e2-49e9-be44-43a6760322f3
 *** Element info: {Using=xpath, value=//android.widget.TextView[@text='����̨']}
 2020-09-02 at 10:00:59 CST INFO  utils.WrappedRemoteWebDriver - screenshotsĿ¼�����ڣ�������Ŀ¼
 2020-09-02 at 10:00:59 CST INFO  utils.WrappedRemoteWebDriver - ��������ɹ���������D:\Program Files\Git\workhard\screenshots\20200902100055
+2020-09-11 at 10:19:21 CST INFO  utils.AppDemo - �ȴ�ʱ��6884
+2020-09-11 at 10:19:29 CST INFO  utils.WrappedRemoteWebDriver - ͨ��xpath��������//android.widget.TextView[@text='����']Ԫ�أ����ҵ�0��
+2020-09-11 at 10:19:29 CST INFO  utils.WrappedRemoteWebDriver - ͨ��xpath��������//android.widget.TextView[@text='���ص�¼ҳ']Ԫ�أ����ҵ�0��
+2020-09-11 at 10:19:29 CST INFO  utils.WrappedRemoteWebDriver - ͨ��xpath��������//android.widget.TextView[@text='����̨']Ԫ�أ����ҵ�1��
+2020-09-11 at 10:19:29 CST INFO  utils.WrappedRemoteWebDriver - ͨ��xpath��������//android.widget.TextView[@text='����̨']Ԫ�أ����ҵ�
+2020-09-11 at 10:19:30 CST INFO  utils.WrappedRemoteWebDriver - ͨ��xpath��������//android.view.View[@text='ǩ��']Ԫ�أ����ҵ�0��
+2020-09-11 at 10:19:31 CST INFO  utils.WrappedRemoteWebDriver - ͨ��xpath��������//android.view.View[@text='ǩ��']Ԫ�أ����ҵ�0��
+2020-09-11 at 10:19:31 CST INFO  utils.WrappedRemoteWebDriver - ͨ��xpath��������//android.view.View[@text='ǩ��']Ԫ�أ����ҵ�0��
+2020-09-11 at 10:19:32 CST INFO  utils.WrappedRemoteWebDriver - ͨ��xpath��������//android.view.View[@text='ǩ��']Ԫ�أ����ҵ�0��
+2020-09-11 at 10:19:33 CST INFO  utils.WrappedRemoteWebDriver - ͨ��xpath��������//android.view.View[@text='ǩ��']Ԫ�أ����ҵ�1��
+2020-09-11 at 10:19:33 CST INFO  utils.WrappedRemoteWebDriver - ͨ��xpath��������//android.view.View[@text='ǩ��']Ԫ�أ����ҵ�
+2020-09-11 at 10:19:34 CST INFO  utils.AppDemo - ********** �ȴ���ȡ��λ��Ϣ **********
+2020-09-11 at 10:19:34 CST INFO  utils.WrappedRemoteWebDriver - ͨ��xpath��������//android.view.View[@resource-id='map-now-address']Ԫ�أ����ҵ�0��
+2020-09-11 at 10:19:35 CST INFO  utils.WrappedRemoteWebDriver - ͨ��xpath��������//android.view.View[@resource-id='map-now-address']Ԫ�أ����ҵ�0��
+2020-09-11 at 10:19:36 CST INFO  utils.WrappedRemoteWebDriver - ͨ��xpath��������//android.view.View[@resource-id='map-now-address']Ԫ�أ����ҵ�1��
+2020-09-11 at 10:19:36 CST INFO  utils.WrappedRemoteWebDriver - ͨ��xpath��������//android.view.View[@resource-id='map-now-address']Ԫ�أ����ҵ�
+2020-09-11 at 10:19:36 CST INFO  utils.AppDemo - ��ǰ��λ�ǣ�
+2020-09-11 at 10:19:42 CST INFO  utils.WrappedRemoteWebDriver - ͨ��xpath��������//android.view.View[@resource-id='map-now-address']Ԫ�أ����ҵ�1��
+2020-09-11 at 10:19:42 CST ERROR utils.WrappedRemoteWebDriver - ͨ��xpath��������//android.view.View[@resource-id='map-now-address']Ԫ��ʱ�����쳣��ԭ��An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 93 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'KONGXUFENG-PC', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_92'
+Driver info: utils.WrappedRemoteWebDriver
+Capabilities [{appPackage=com.seeyon.cmp, networkConnectionEnabled=true, noReset=true, warnings={}, appWaitActivity=com.seeyon.cmp.ui.main.MainActivity, databaseEnabled=false, deviceName=G6DAJZLJU8NVVWFA, platform=LINUX, appActivity=com.seeyon.cmp.ui.LoadActivity, desired={appPackage=com.seeyon.cmp, appActivity=com.seeyon.cmp.ui.LoadActivity, noReset=true, appWaitActivity=com.seeyon.cmp.ui.main.MainActivity, browserName=, unicodeKeyboard=true, platformName=Android, deviceName=G6DAJZLJU8NVVWFA, resetKeyboard=true}, platformVersion=8.1.0, webStorageEnabled=false, locationContextEnabled=false, browserName=, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, resetKeyboard=true}]
+Session ID: 2a67b639-a68b-4b37-b60e-893f73502f22
+*** Element info: {Using=xpath, value=//android.view.View[@resource-id='map-now-address']}
+2020-09-11 at 10:19:47 CST INFO  utils.WrappedRemoteWebDriver - ��������ɹ���������D:\Program Files\Git\workhard\screenshots\20200911101942
+2020-09-11 at 10:36:42 CST INFO  utils.AppDemo - 等待时间24169
+2020-09-11 at 10:37:06 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='跳过']元素，已找到0个
+2020-09-11 at 10:37:07 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='返回登录页']元素，已找到0个
+2020-09-11 at 10:37:07 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='工作台']元素，已找到1个
+2020-09-11 at 10:37:07 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='工作台']元素，已找到
+2020-09-11 at 10:37:07 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='签到']元素，已找到0个
+2020-09-11 at 10:37:08 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='签到']元素，已找到0个
+2020-09-11 at 10:37:09 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='签到']元素，已找到0个
+2020-09-11 at 10:37:09 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='签到']元素，已找到0个
+2020-09-11 at 10:37:10 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='签到']元素，已找到0个
+2020-09-11 at 10:37:11 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='签到']元素，已找到1个
+2020-09-11 at 10:37:11 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='签到']元素，已找到
+2020-09-11 at 10:37:12 CST INFO  utils.AppDemo - ********** 等待获取定位信息 **********
+2020-09-11 at 10:37:12 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@resource-id='map-now-address']元素，已找到0个
+2020-09-11 at 10:40:29 CST INFO  utils.AppDemo - 等待时间8084
+2020-09-11 at 10:56:31 CST INFO  utils.AppDemo - 等待时间13257
+2020-09-11 at 10:57:42 CST INFO  utils.AppDemo - 等待时间23217
+2020-09-11 at 11:02:14 CST INFO  utils.AppDemo - 等待时间21942
+2020-09-11 at 11:05:05 CST INFO  utils.AppDemo - 等待时间18263
+2020-09-14 at 10:49:23 CST INFO  utils.AppDemo - 等待时间22051
+2020-09-14 at 10:53:20 CST INFO  utils.AppDemo - 等待时间18010
+2020-09-14 at 10:53:55 CST ERROR utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='跳过']元素时发生异常，原因：An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 397 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'KONGXUFENG-PC', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_92'
+Driver info: utils.WrappedRemoteWebDriver
+Capabilities [{appPackage=com.seeyon.cmp, networkConnectionEnabled=true, noReset=true, warnings={}, databaseEnabled=false, deviceName=G6DAJZLJU8NVVWFA, platform=LINUX, appActivity=com.seeyon.cmp.ui.LoadActivity, desired={appPackage=com.seeyon.cmp, appActivity=com.seeyon.cmp.ui.LoadActivity, noReset=true, browserName=, unicodeKeyboard=true, platformName=Android, deviceName=G6DAJZLJU8NVVWFA, resetKeyboard=true}, platformVersion=8.1.0, webStorageEnabled=false, locationContextEnabled=false, browserName=, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, resetKeyboard=true}]
+Session ID: 81cabc2f-5ab9-4d34-99e9-e66294fc5482
+*** Element info: {Using=xpath, value=//android.widget.TextView[@text='跳过']}
+2020-09-14 at 10:54:00 CST INFO  utils.WrappedRemoteWebDriver - 截屏保存成功，保存在D:\Program Files\Git\workhard\screenshots\20200914105355
+2020-09-14 at 10:57:22 CST INFO  utils.AppDemo - 等待时间10774
+2020-09-14 at 11:00:00 CST INFO  utils.AppDemo - 等待时间22815
+2020-09-14 at 11:00:37 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='跳过']元素，已找到0个
+2020-09-14 at 11:00:41 CST ERROR utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='跳过']元素时发生异常，原因：An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 152 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'KONGXUFENG-PC', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_92'
+Driver info: utils.WrappedRemoteWebDriver
+Capabilities [{appPackage=com.seeyon.cmp, networkConnectionEnabled=true, noReset=true, warnings={}, databaseEnabled=false, deviceName=G6DAJZLJU8NVVWFA, platform=LINUX, appActivity=com.seeyon.cmp.ui.LoadActivity, desired={appPackage=com.seeyon.cmp, appActivity=com.seeyon.cmp.ui.LoadActivity, noReset=true, browserName=, unicodeKeyboard=true, platformName=Android, deviceName=G6DAJZLJU8NVVWFA, resetKeyboard=true}, platformVersion=8.1.0, webStorageEnabled=false, locationContextEnabled=false, browserName=, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, resetKeyboard=true}]
+Session ID: 8de3000b-f813-46bc-b9e1-a416f8cc2528
+*** Element info: {Using=xpath, value=//android.widget.TextView[@text='跳过']}
+2020-09-14 at 11:00:46 CST INFO  utils.WrappedRemoteWebDriver - 截屏保存成功，保存在D:\Program Files\Git\workhard\screenshots\20200914110041
+2020-09-14 at 11:12:30 CST INFO  utils.AppDemo - 等待时间13072
+2020-10-10 at 17:00:06 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='工作台']元素，已找到1个
+2020-10-10 at 17:00:13 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='工作台']元素，已找到
+2020-10-10 at 17:00:18 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='航天云网OA']元素，已找到1个
+2020-10-10 at 17:00:19 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='航天云网OA']元素，已找到
+2020-10-10 at 17:00:22 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:23 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:23 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:24 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:25 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:26 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:26 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:27 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:27 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:28 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:29 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:29 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:30 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:31 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:32 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:32 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:33 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:34 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:34 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:35 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:36 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:36 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:37 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:38 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:38 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:39 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:40 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:40 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:41 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:42 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:42 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:43 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:44 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:44 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:45 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:46 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:46 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:47 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:48 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:48 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:49 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:50 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:50 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:51 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:52 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:00:52 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='微协同']元素，已找到0个
+2020-10-10 at 17:02:48 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='工作台']元素，已找到0个
+2020-10-10 at 17:02:51 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='工作台']元素，已找到1个
+2020-10-10 at 17:02:51 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='工作台']元素，已找到
+2020-10-10 at 17:02:53 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='航天云网OA']元素，已找到1个
+2020-10-10 at 17:02:53 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='航天云网OA']元素，已找到
+2020-10-10 at 17:02:55 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='微协同']元素，已找到1个
+2020-10-10 at 17:03:00 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='微协同']元素，已找到
+2020-10-10 at 17:03:07 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='全部应用']元素，已找到1个
+2020-10-10 at 17:03:10 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='全部应用']元素，已找到
+2020-10-10 at 17:03:13 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='签到']元素，已找到1个
+2020-10-10 at 17:03:29 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='签到']元素，已找到
+2020-10-10 at 17:03:35 CST INFO  test.WorkTest - ********** 等待获取定位信息 **********
+2020-10-10 at 17:03:36 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@resource-id='map-now-address']元素，已找到1个
+2020-10-10 at 17:03:36 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@resource-id='map-now-address']元素，已找到
+2020-10-10 at 17:03:36 CST INFO  test.WorkTest - 当前定位是：北京市石景山区苹果园街道航天云网大厦点石商务公园
+2020-10-10 at 17:05:33 CST INFO  test.WorkTest - 当前时间 = **********Thu Jan 01 17:05:00 CST 1970
+2020-10-10 at 17:05:33 CST ERROR test.WorkTest - 当前时间 = **********Thu Jan 01 17:05:00 CST 1970没到时间
+2020-10-10 at 17:05:47 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='工作台']元素，已找到0个
+2020-10-10 at 17:05:50 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='工作台']元素，已找到1个
+2020-10-10 at 17:05:50 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='工作台']元素，已找到
+2020-10-10 at 17:05:51 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='航天云网OA']元素，已找到1个
+2020-10-10 at 17:05:51 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='航天云网OA']元素，已找到
+2020-10-10 at 17:05:53 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='微协同']元素，已找到1个
+2020-10-10 at 17:05:53 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='微协同']元素，已找到
+2020-10-10 at 17:05:54 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='全部应用']元素，已找到0个
+2020-10-10 at 17:05:55 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='全部应用']元素，已找到0个
+2020-10-10 at 17:05:56 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='全部应用']元素，已找到0个
+2020-10-10 at 17:05:56 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='全部应用']元素，已找到0个
+2020-10-10 at 17:05:57 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='全部应用']元素，已找到0个
+2020-10-10 at 17:05:59 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='全部应用']元素，已找到1个
+2020-10-10 at 17:05:59 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='全部应用']元素，已找到
+2020-10-10 at 17:06:00 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='签到']元素，已找到0个
+2020-10-10 at 17:06:00 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='签到']元素，已找到1个
+2020-10-10 at 17:06:00 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='签到']元素，已找到
+2020-10-10 at 17:06:01 CST INFO  test.WorkTest - ********** 等待获取定位信息 **********
+2020-10-10 at 17:06:01 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@resource-id='map-now-address']元素，已找到0个
+2020-10-10 at 17:06:02 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@resource-id='map-now-address']元素，已找到1个
+2020-10-10 at 17:06:02 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@resource-id='map-now-address']元素，已找到
+2020-10-10 at 17:06:02 CST INFO  test.WorkTest - 当前定位是：
+2020-10-10 at 17:06:08 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@resource-id='map-now-address']元素，已找到1个
+2020-10-10 at 17:06:08 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@resource-id='map-now-address']元素，已找到
+2020-10-10 at 17:06:08 CST INFO  test.WorkTest - 当前定位是：北京市石景山区苹果园街道航天云网大厦点石商务公园
+2020-10-10 at 17:06:08 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@resource-id='map-now-address']元素，已找到
+2020-10-10 at 17:06:09 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView元素，已找到0个
+2020-10-10 at 17:06:10 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView元素，已找到1个
+2020-10-10 at 17:06:13 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View元素，已找到22个
+2020-10-10 at 17:06:13 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[2]/android.view.View[1]元素，已找到
+2020-10-10 at 17:06:14 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[3]/android.view.View[1]元素，已找到
+2020-10-10 at 17:06:14 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[4]/android.view.View[1]元素，已找到
+2020-10-10 at 17:06:15 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[5]/android.view.View[1]元素，已找到
+2020-10-10 at 17:06:16 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[6]/android.view.View[1]元素，已找到
+2020-10-10 at 17:06:17 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[7]/android.view.View[1]元素，已找到
+2020-10-10 at 17:06:17 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[8]/android.view.View[1]元素，已找到
+2020-10-10 at 17:06:18 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[9]/android.view.View[1]元素，已找到
+2020-10-10 at 17:06:18 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[10]/android.view.View[1]元素，已找到
+2020-10-10 at 17:06:19 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[11]/android.view.View[1]元素，已找到
+2020-10-10 at 17:06:19 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[12]/android.view.View[1]元素，已找到
+2020-10-10 at 17:06:20 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[13]/android.view.View[1]元素，已找到
+2020-10-10 at 17:06:20 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[14]/android.view.View[1]元素，已找到
+2020-10-10 at 17:06:21 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[15]/android.view.View[1]元素，已找到
+2020-10-10 at 17:06:21 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[16]/android.view.View[1]元素，已找到
+2020-10-10 at 17:06:22 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[17]/android.view.View[1]元素，已找到
+2020-10-10 at 17:06:22 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[18]/android.view.View[1]元素，已找到
+2020-10-10 at 17:06:23 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[19]/android.view.View[1]元素，已找到
+2020-10-10 at 17:06:23 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[20]/android.view.View[1]元素，已找到
+2020-10-10 at 17:06:24 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[21]/android.view.View[1]元素，已找到
+2020-10-10 at 17:06:24 CST INFO  test.WorkTest - ********** 全部列表未找到,查询企业列表 **********
+2020-10-10 at 17:06:24 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='企业']元素，已找到
+2020-10-10 at 17:06:25 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView元素，已找到1个
+2020-10-10 at 17:06:27 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View元素，已找到18个
+2020-10-10 at 17:06:27 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[2]/android.view.View[1]元素，已找到
+2020-10-10 at 17:06:27 CST INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[2]/android.view.View[1]元素，已找到
+2020-10-10 at 17:06:40 CST INFO  test.WorkTest - 当前时间 = **********Thu Jan 01 17:06:00 CST 1970
+2020-10-10 at 17:06:40 CST ERROR test.WorkTest - 当前时间 = **********Thu Jan 01 17:06:00 CST 1970没到时间
