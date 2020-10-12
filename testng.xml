@@ -6,7 +6,7 @@
 	</listeners>
         <test name="热爱工作" enabled="true">
             <classes>
-                <class name="test.WorkTest">
+                <class name="utils.AppDemo">
                 </class>
             </classes>
         </test>
