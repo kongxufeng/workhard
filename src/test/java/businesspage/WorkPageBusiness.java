@@ -16,6 +16,7 @@ public class WorkPageBusiness {
     }
 
     public void run() throws Exception {
+        Thread.sleep(5000);
         //判断是否出现跳过、返回登录页按钮，并点击
         pageHandle.跳过按钮_点击();
         if (!pageHandle.返回登录按钮元素为空()){
