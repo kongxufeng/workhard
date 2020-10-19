@@ -2,11 +2,13 @@
 <suite name="努力工作">
 	<listeners>
 		<listener class-name="utils.TestFailListener" />
-        <listener class-name="utils.TestListener" />
 	</listeners>
         <test name="热爱工作" enabled="true">
             <classes>
-                <class name="utils.AppDemo">
+                <class name="testcase.WorkTest">
+                    <methods>
+                        <include name="Test"></include>
+                    </methods>
                 </class>
             </classes>
         </test>

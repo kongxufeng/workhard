@@ -60,16 +60,16 @@ public class AppDemo {
 
 	@Test
 	public void plus()  throws Exception {
+		int h = driver.manage().window().getSize().height;
+		int w = driver.manage().window().getSize().width;
+
 		boolean flag = false;
 		int random = new Random().nextInt(10000)+5000;
 		//int random = 5000;
 		logger.info("等待时间1:"+random);
 		Thread.sleep(random);
-        if (!driver.currentActivity().contains("com.seeyon.cmp.ui.main.MainActivity")){
+        if (driver.isLocked() || !driver.currentActivity().contains("com.seeyon.cmp.ui.main.MainActivity")){
 			logger.info("上滑解锁");
-            int h = driver.manage().window().getSize().height;
-            int w = driver.manage().window().getSize().width;
-            Thread.sleep(1000);
             driver.swipe(new Double(w*0.5).intValue(),new Double(h*0.75).intValue(),new Double(w*0.5).intValue(),new Double(h*0.25).intValue() ,1000);
         }
 		logger.info("等待时间2:"+random);
@@ -160,9 +160,9 @@ public class AppDemo {
 			Thread.sleep(3000);
 			String text ="";
 			if (now.before(start)){
-				 text = driver.findElement(By.xpath("//android.view.View[@resource-id='clock-page']/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[2]")).getAttribute("name");
+				 text = driver.findElement(By.xpath("//android.view.View[@resource-id='clock-elementpage']/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[2]")).getAttribute("name");
 			}else {
-				text = driver.findElement(By.xpath("//android.view.View[@resource-id='clock-page']/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[5]")).getAttribute("name");
+				text = driver.findElement(By.xpath("//android.view.View[@resource-id='clock-elementpage']/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[5]")).getAttribute("name");
 			}
 
 			if (text.contains("正常")){

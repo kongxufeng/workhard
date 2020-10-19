@@ -1,24 +1,25 @@
-package test;
+package testcase;
 
-import io.appium.java_client.android.AndroidDriver;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import base.LoginPage;
+import businesspage.WorkPageBusiness;
+import data.UserData;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-import utils.AppTest;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
-import java.util.Random;
 
-public class WorkTest extends AppTest {
-    @Test
+public class WorkTest extends AppCaseBase {
+    /*private static String username ="asd123";
+    private static String password ="asd123";*/
+
+    /*@Test
     public void WorkTest() throws Exception{
         boolean flag =false;
         new WebDriverWait(driver, 30).until(
@@ -106,9 +107,9 @@ public class WorkTest extends AppTest {
             Thread.sleep(3000);
             String text ="";
             if (now.before(start)){
-                text = driver.findElement(By.xpath("//android.view.View[@resource-id='clock-page']/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[2]")).getAttribute("name");
+                text = driver.findElement(By.xpath("//android.view.View[@resource-id='clock-elementpage']/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[2]")).getAttribute("name");
             }else {
-                text = driver.findElement(By.xpath("//android.view.View[@resource-id='clock-page']/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[5]")).getAttribute("name");
+                text = driver.findElement(By.xpath("//android.view.View[@resource-id='clock-elementpage']/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[5]")).getAttribute("name");
             }
 
             if (text.contains("正常")){
@@ -127,5 +128,13 @@ public class WorkTest extends AppTest {
         Assert.assertTrue(flag);
 
 
+    }*/
+
+    @Test
+    public void Test()throws Exception{
+        //LoginPage loginPage =new LoginPage(driver);
+        //loginPage.login(username,password);
+        WorkPageBusiness business = new WorkPageBusiness(driver);
+        business.run();
     }
 }

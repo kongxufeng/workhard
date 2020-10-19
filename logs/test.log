@@ -1,57 +1,29 @@
-17:05:47.670 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='工作台']元素，已找到0个
-17:05:50.351 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='工作台']元素，已找到1个
-17:05:50.514 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='工作台']元素，已找到
-17:05:51.734 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='航天云网OA']元素，已找到1个
-17:05:51.883 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='航天云网OA']元素，已找到
-17:05:53.848 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='微协同']元素，已找到1个
-17:05:53.983 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='微协同']元素，已找到
-17:05:54.923 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='全部应用']元素，已找到0个
-17:05:55.498 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='全部应用']元素，已找到0个
-17:05:56.101 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='全部应用']元素，已找到0个
-17:05:56.664 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='全部应用']元素，已找到0个
-17:05:57.299 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='全部应用']元素，已找到0个
-17:05:59.018 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='全部应用']元素，已找到1个
-17:05:59.167 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='全部应用']元素，已找到
-17:06:00.049 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='签到']元素，已找到0个
-17:06:00.803 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='签到']元素，已找到1个
-17:06:00.948 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='签到']元素，已找到
-17:06:01.134 INFO  test.WorkTest - ********** 等待获取定位信息 **********
-17:06:01.367 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@resource-id='map-now-address']元素，已找到0个
-17:06:02.713 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@resource-id='map-now-address']元素，已找到1个
-17:06:02.826 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@resource-id='map-now-address']元素，已找到
-17:06:02.872 INFO  test.WorkTest - 当前定位是：
-17:06:08.027 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@resource-id='map-now-address']元素，已找到1个
-17:06:08.646 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@resource-id='map-now-address']元素，已找到
-17:06:08.706 INFO  test.WorkTest - 当前定位是：北京市石景山区苹果园街道航天云网大厦点石商务公园
-17:06:08.855 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@resource-id='map-now-address']元素，已找到
-17:06:09.357 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView元素，已找到0个
-17:06:10.836 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView元素，已找到1个
-17:06:13.028 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View元素，已找到22个
-17:06:13.676 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[2]/android.view.View[1]元素，已找到
-17:06:14.098 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[3]/android.view.View[1]元素，已找到
-17:06:14.951 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[4]/android.view.View[1]元素，已找到
-17:06:15.787 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[5]/android.view.View[1]元素，已找到
-17:06:16.147 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[6]/android.view.View[1]元素，已找到
-17:06:17.024 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[7]/android.view.View[1]元素，已找到
-17:06:17.675 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[8]/android.view.View[1]元素，已找到
-17:06:18.035 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[9]/android.view.View[1]元素，已找到
-17:06:18.684 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[10]/android.view.View[1]元素，已找到
-17:06:19.061 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[11]/android.view.View[1]元素，已找到
-17:06:19.706 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[12]/android.view.View[1]元素，已找到
-17:06:20.051 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[13]/android.view.View[1]元素，已找到
-17:06:20.682 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[14]/android.view.View[1]元素，已找到
-17:06:21.036 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[15]/android.view.View[1]元素，已找到
-17:06:21.696 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[16]/android.view.View[1]元素，已找到
-17:06:22.040 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[17]/android.view.View[1]元素，已找到
-17:06:22.691 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[18]/android.view.View[1]元素，已找到
-17:06:23.037 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[19]/android.view.View[1]元素，已找到
-17:06:23.696 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[20]/android.view.View[1]元素，已找到
-17:06:24.057 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[21]/android.view.View[1]元素，已找到
-17:06:24.137 INFO  test.WorkTest - ********** 全部列表未找到,查询企业列表 **********
-17:06:24.694 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='企业']元素，已找到
-17:06:25.677 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView元素，已找到1个
-17:06:27.108 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View元素，已找到18个
-17:06:27.685 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[2]/android.view.View[1]元素，已找到
-17:06:27.944 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View[2]/android.view.View[1]元素，已找到
-17:06:40.438 INFO  test.WorkTest - 当前时间 = **********Thu Jan 01 17:06:00 CST 1970
-17:06:40.438 ERROR test.WorkTest - 当前时间 = **********Thu Jan 01 17:06:00 CST 1970没到时间
+17:30:57.870 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//*[starts-with(@text,'用户名')]元素，已找到
+17:30:57.990 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//*[starts-with(@text,'登录')]元素，已找到
+17:30:58.022 ERROR utils.WrappedRemoteWebDriver - 通过xpath方法查找//*[starts-with(@text,'用户名')]元素时发生异常，原因：An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-TLDDHG5', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_92'
+Driver info: utils.WrappedRemoteWebDriver
+Capabilities [{appPackage=com.seeyon.cmp, networkConnectionEnabled=true, noReset=true, warnings={}, databaseEnabled=false, deviceName=4ed8a95f, platform=LINUX, appActivity=com.seeyon.cmp.ui.LoadActivity, desired={appPackage=com.seeyon.cmp, appActivity=com.seeyon.cmp.ui.LoadActivity, noReset=true, browserName=, unicodeKeyboard=true, platformName=Android, deviceName=4ed8a95f, resetKeyboard=true}, platformVersion=9, webStorageEnabled=false, locationContextEnabled=false, browserName=, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, resetKeyboard=true}]
+Session ID: 9a5ffe28-02c7-4697-a495-7e3d74e61226
+*** Element info: {Using=xpath, value=//*[starts-with(@text,'用户名')]}
+17:30:58.302 ERROR utils.WrappedRemoteWebDriver - 通过xpath方法查找//*[starts-with(@text,'密码')]元素时发生异常，原因：An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-TLDDHG5', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_92'
+Driver info: utils.WrappedRemoteWebDriver
+Capabilities [{appPackage=com.seeyon.cmp, networkConnectionEnabled=true, noReset=true, warnings={}, databaseEnabled=false, deviceName=4ed8a95f, platform=LINUX, appActivity=com.seeyon.cmp.ui.LoadActivity, desired={appPackage=com.seeyon.cmp, appActivity=com.seeyon.cmp.ui.LoadActivity, noReset=true, browserName=, unicodeKeyboard=true, platformName=Android, deviceName=4ed8a95f, resetKeyboard=true}, platformVersion=9, webStorageEnabled=false, locationContextEnabled=false, browserName=, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, resetKeyboard=true}]
+Session ID: 9a5ffe28-02c7-4697-a495-7e3d74e61226
+*** Element info: {Using=xpath, value=//*[starts-with(@text,'密码')]}
+17:31:03.227 ERROR utils.WrappedRemoteWebDriver - 通过xpath方法查找//*[starts-with(@text,'用户名')]元素时发生异常，原因：An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-TLDDHG5', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_92'
+Driver info: utils.WrappedRemoteWebDriver
+Capabilities [{appPackage=com.seeyon.cmp, networkConnectionEnabled=true, noReset=true, warnings={}, databaseEnabled=false, deviceName=4ed8a95f, platform=LINUX, appActivity=com.seeyon.cmp.ui.LoadActivity, desired={appPackage=com.seeyon.cmp, appActivity=com.seeyon.cmp.ui.LoadActivity, noReset=true, browserName=, unicodeKeyboard=true, platformName=Android, deviceName=4ed8a95f, resetKeyboard=true}, platformVersion=9, webStorageEnabled=false, locationContextEnabled=false, browserName=, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, resetKeyboard=true}]
+Session ID: 9a5ffe28-02c7-4697-a495-7e3d74e61226
+*** Element info: {Using=xpath, value=//*[starts-with(@text,'用户名')]}
