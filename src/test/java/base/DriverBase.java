@@ -19,7 +19,7 @@ public class DriverBase{
      * 构造方法 创建对象时实例化driver
      * */
     public DriverBase() throws MalformedURLException {
-        this.driver = getDriver(deviceName1);
+        this.driver = getDriver(deviceName);
     }
 
 

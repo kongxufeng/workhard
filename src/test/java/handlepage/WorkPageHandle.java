@@ -24,7 +24,7 @@ public class WorkPageHandle {
      * */
     public WorkPageHandle(AndroidDriver driver) {
         this.driver =driver;
-        //PageFactory.initElements(driver, this);
+        PageFactory.initElements(driver, this);
         workpage = new WorkElementPage(driver);
         basePage = new BasePage(driver);
     }
