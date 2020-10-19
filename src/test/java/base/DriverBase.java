@@ -40,7 +40,7 @@ public class DriverBase{
 
     public static boolean swipe_up(int w, int h, String currentActivity, AndroidDriver driver){
         boolean flag= false;
-        if (driver.isLocked() || !driver.currentActivity().contains(currentActivity)){
+        if (!driver.currentActivity().contains(currentActivity)){
             driver.swipe(new Double(w*0.5).intValue(),new Double(h*0.75).intValue(),new Double(w*0.5).intValue(),new Double(h*0.25).intValue() ,1000);
             flag = true;
         }
