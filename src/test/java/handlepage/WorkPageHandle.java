@@ -15,9 +15,9 @@ import java.util.Date;
 import java.util.List;
 
 public class WorkPageHandle {
-    private AndroidDriver driver;
-    private WorkElementPage workpage;
-    private BasePage basePage;
+    AndroidDriver driver;
+    WorkElementPage workpage;
+    BasePage basePage;
     public Logger logger = LogManager.getLogger();
     /**
      * 构造方法

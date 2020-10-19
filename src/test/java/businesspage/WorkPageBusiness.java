@@ -7,8 +7,8 @@ import org.testng.Assert;
 import org.testng.asserts.Assertion;
 
 public class WorkPageBusiness {
-    private AndroidDriver driver;
-    private WorkPageHandle pageHandle;
+    AndroidDriver driver;
+    WorkPageHandle pageHandle;
 
     public WorkPageBusiness(AndroidDriver driver){
         this.driver =driver;
