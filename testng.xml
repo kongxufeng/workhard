@@ -5,10 +5,7 @@
 	</listeners>
         <test name="热爱工作" enabled="true">
             <classes>
-                <class name="testcase.WorkTest">
-                    <methods>
-                        <include name="Test"></include>
-                    </methods>
+                <class name="utils.AppDemo">
                 </class>
             </classes>
         </test>
