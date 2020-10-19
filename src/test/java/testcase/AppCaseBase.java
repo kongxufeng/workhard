@@ -1,5 +1,6 @@
 package testcase;
 
+import base.BasePage;
 import base.DriverBase;
 import io.appium.java_client.android.AndroidDriver;
 import org.apache.logging.log4j.LogManager;
@@ -18,7 +19,7 @@ public class AppCaseBase {
     private static String currentActivity = "com.seeyon.cmp.ui.main.MainActivity";
     @BeforeClass
     public void setup() throws Exception {
-        driver =DriverBase.getDriver(deviceName);
+        this.driver =DriverBase.getDriver(deviceName);
         int h = driver.manage().window().getSize().height;
         int w = driver.manage().window().getSize().width;
         logger.info("获取尺寸:"+"height="+h+",width"+w);
