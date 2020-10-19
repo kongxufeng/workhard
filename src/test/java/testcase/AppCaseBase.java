@@ -22,6 +22,7 @@ public class AppCaseBase {
         int h = driver.manage().window().getSize().height;
         int w = driver.manage().window().getSize().width;
         logger.info("获取尺寸:"+"height="+h+",width"+w);
+        Thread.sleep(5000);
         boolean flag = DriverBase.swipe_up(w,h,currentActivity,driver);
         logger.info("是否进行解锁："+flag);
         //driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
