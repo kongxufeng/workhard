@@ -1,7 +1,10 @@
 package base;
 
 import io.appium.java_client.android.AndroidDriver;
-
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -13,10 +16,23 @@ public class BasePage {
      * 构造方法
      * */
     public BasePage(AndroidDriver driver){
+        PageFactory.initElements(driver,this);
         this.driver = driver;
-
     }
 
+    public void 等待元素(WebElement element){
+        new WebDriverWait(driver, 30).until(
+                ExpectedConditions.visibilityOf(element));
+    }
+
+    public static boolean swipe_up(int w, int h, String currentActivity, AndroidDriver driver){
+        boolean flag= false;
+        if (driver.isLocked()){
+            driver.swipe(new Double(w*0.5).intValue(),new Double(h*0.75).intValue(),new Double(w*0.5).intValue(),new Double(h*0.25).intValue() ,1000);
+            flag = true;
+        }
+        return flag;
+    }
 
 
     //获取指定日期格式当前系统时间

@@ -1,29 +1,16 @@
-17:30:57.870 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//*[starts-with(@text,'用户名')]元素，已找到
-17:30:57.990 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//*[starts-with(@text,'登录')]元素，已找到
-17:30:58.022 ERROR utils.WrappedRemoteWebDriver - 通过xpath方法查找//*[starts-with(@text,'用户名')]元素时发生异常，原因：An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 25 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'DESKTOP-TLDDHG5', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_92'
-Driver info: utils.WrappedRemoteWebDriver
-Capabilities [{appPackage=com.seeyon.cmp, networkConnectionEnabled=true, noReset=true, warnings={}, databaseEnabled=false, deviceName=4ed8a95f, platform=LINUX, appActivity=com.seeyon.cmp.ui.LoadActivity, desired={appPackage=com.seeyon.cmp, appActivity=com.seeyon.cmp.ui.LoadActivity, noReset=true, browserName=, unicodeKeyboard=true, platformName=Android, deviceName=4ed8a95f, resetKeyboard=true}, platformVersion=9, webStorageEnabled=false, locationContextEnabled=false, browserName=, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, resetKeyboard=true}]
-Session ID: 9a5ffe28-02c7-4697-a495-7e3d74e61226
-*** Element info: {Using=xpath, value=//*[starts-with(@text,'用户名')]}
-17:30:58.302 ERROR utils.WrappedRemoteWebDriver - 通过xpath方法查找//*[starts-with(@text,'密码')]元素时发生异常，原因：An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'DESKTOP-TLDDHG5', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_92'
-Driver info: utils.WrappedRemoteWebDriver
-Capabilities [{appPackage=com.seeyon.cmp, networkConnectionEnabled=true, noReset=true, warnings={}, databaseEnabled=false, deviceName=4ed8a95f, platform=LINUX, appActivity=com.seeyon.cmp.ui.LoadActivity, desired={appPackage=com.seeyon.cmp, appActivity=com.seeyon.cmp.ui.LoadActivity, noReset=true, browserName=, unicodeKeyboard=true, platformName=Android, deviceName=4ed8a95f, resetKeyboard=true}, platformVersion=9, webStorageEnabled=false, locationContextEnabled=false, browserName=, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, resetKeyboard=true}]
-Session ID: 9a5ffe28-02c7-4697-a495-7e3d74e61226
-*** Element info: {Using=xpath, value=//*[starts-with(@text,'密码')]}
-17:31:03.227 ERROR utils.WrappedRemoteWebDriver - 通过xpath方法查找//*[starts-with(@text,'用户名')]元素时发生异常，原因：An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 40 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'DESKTOP-TLDDHG5', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_92'
-Driver info: utils.WrappedRemoteWebDriver
-Capabilities [{appPackage=com.seeyon.cmp, networkConnectionEnabled=true, noReset=true, warnings={}, databaseEnabled=false, deviceName=4ed8a95f, platform=LINUX, appActivity=com.seeyon.cmp.ui.LoadActivity, desired={appPackage=com.seeyon.cmp, appActivity=com.seeyon.cmp.ui.LoadActivity, noReset=true, browserName=, unicodeKeyboard=true, platformName=Android, deviceName=4ed8a95f, resetKeyboard=true}, platformVersion=9, webStorageEnabled=false, locationContextEnabled=false, browserName=, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, resetKeyboard=true}]
-Session ID: 9a5ffe28-02c7-4697-a495-7e3d74e61226
-*** Element info: {Using=xpath, value=//*[starts-with(@text,'用户名')]}
+11:25:52.441 INFO  testcase.AppCaseBase - 获取尺寸:height=2029,width1080
+11:26:02.586 INFO  testcase.AppCaseBase - 是否进行解锁：false
+11:26:02.849 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='跳过']元素，已找到0个
+11:26:02.913 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='返回登录页']元素，已找到0个
+11:26:05.097 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='工作台']元素，已找到
+11:26:05.171 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.TextView[@text='工作台']元素，已找到
+11:26:09.237 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='签到']元素，已找到
+11:26:09.400 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='签到']元素，已找到
+11:26:14.967 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@resource-id='map-now-address']元素，已找到
+11:26:15.605 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@resource-id='map-now-address']元素，已找到
+11:26:15.749 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@resource-id='map-now-address']元素，已找到
+11:26:18.666 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@resource-id='map-now-address']元素，已找到
+11:26:18.770 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@resource-id='map-now-address']元素，已找到
+11:26:22.710 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.view.View[@text='企业']元素，已找到
+11:26:31.538 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View元素，已找到
+11:26:35.509 INFO  utils.WrappedRemoteWebDriver - 通过xpath方法查找//android.widget.ListView/android.view.View元素，已找到

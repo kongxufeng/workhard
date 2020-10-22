@@ -160,9 +160,9 @@ public class AppDemo {
 			Thread.sleep(3000);
 			String text ="";
 			if (now.before(start)){
-				 text = driver.findElement(By.xpath("//android.view.View[@resource-id='clock-elementpage']/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[2]")).getAttribute("name");
+				 text = driver.findElement(By.xpath("//android.view.View[@resource-id='clock-page]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[3]")).getAttribute("name");
 			}else {
-				text = driver.findElement(By.xpath("//android.view.View[@resource-id='clock-elementpage']/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[5]")).getAttribute("name");
+				text = driver.findElement(By.xpath("//android.view.View[@resource-id='clock-page']/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[6]")).getAttribute("name");
 			}
 
 			if (text.contains("正常")){

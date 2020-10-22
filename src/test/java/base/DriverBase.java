@@ -18,8 +18,8 @@ public class DriverBase{
     /**
      * 构造方法 创建对象时实例化driver
      * */
-    public DriverBase() throws MalformedURLException {
-        this.driver = getDriver(deviceName);
+    public DriverBase() throws Exception {
+        this.driver = getDriver(deviceName1);
     }
 
 
@@ -38,21 +38,13 @@ public class DriverBase{
         return driver.findElements(by);
     }
 
-    public static boolean swipe_up(int w, int h, String currentActivity, AndroidDriver driver){
-        boolean flag= false;
-        if (!driver.currentActivity().contains(currentActivity)){
-            driver.swipe(new Double(w*0.5).intValue(),new Double(h*0.75).intValue(),new Double(w*0.5).intValue(),new Double(h*0.25).intValue() ,1000);
-            flag = true;
-        }
-        return flag;
-    }
 
 
     /**
      * getDriver静态方法用于向使用者提供方便的获取不同类型浏览器driver对象
      * @return driver
      */
-    public static AndroidDriver getDriver(String deviceName) throws MalformedURLException {
+    public static AndroidDriver getDriver(String deviceName) throws Exception {
         AndroidDriver driver = null;
         DesiredCapabilities cap = new DesiredCapabilities();
         cap.setCapability(CapabilityType.BROWSER_NAME, "");

@@ -5,14 +5,10 @@ import elementpage.WorkElementPage;
 import io.appium.java_client.android.AndroidDriver;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
+import org.openqa.selenium.support.PageFactory;
 import java.util.Date;
-import java.util.List;
+
 
 public class WorkPageHandle {
     AndroidDriver driver;
@@ -24,43 +20,34 @@ public class WorkPageHandle {
      * */
     public WorkPageHandle(AndroidDriver driver) {
         this.driver =driver;
-        PageFactory.initElements(driver, this);
         workpage = new WorkElementPage(driver);
         basePage = new BasePage(driver);
-    }
-
-    public void 上滑解锁(int h,int w){
-
-        driver.swipe(new Double(w*0.5).intValue(),new Double(h*0.75).intValue(),new Double(w*0.5).intValue(),new Double(h*0.25).intValue() ,1000);
-
+        PageFactory.initElements(driver,this);
     }
 
     //判断跳过按钮元素是否为空
-    public Boolean 跳过按钮元素为空(){
+    public boolean 跳过按钮元素为空(){
         return workpage.skip_buttons.isEmpty();
     }
 
     public void 跳过按钮_点击(){
-        if (!跳过按钮元素为空()){
-            workpage.skip_button.click();
-        }
+        workpage.skip_button.click();
     }
 
 
 
     //判断返回登录按钮元素是否为空
-    public Boolean 返回登录按钮元素为空(){
+    public boolean 返回登录按钮元素为空(){
         return workpage.返回登录页按钮s.isEmpty();
     }
 
     public void 返回登陆页按钮_点击(){
-            workpage.返回登录页按钮.click();
+        workpage.返回登录页按钮.click();
     }
 
     //等待登录按钮
     public void 等待登录按钮可用(){
-        new WebDriverWait(driver, 30).until(
-                ExpectedConditions.visibilityOf(workpage.登录按钮));
+        basePage.等待元素(workpage.登录按钮);
     }
 
     public void 登录按钮_点击(){
@@ -70,8 +57,7 @@ public class WorkPageHandle {
 
     //等待工作台按钮
     public void 等待工作台按钮可用(){
-        new WebDriverWait(driver, 30).until(
-                ExpectedConditions.visibilityOf(workpage.工作台按钮));
+        basePage.等待元素(workpage.工作台按钮);
     }
 
     public void 工作台按钮_点击(){
@@ -79,10 +65,11 @@ public class WorkPageHandle {
         workpage.工作台按钮.click();
     }
 
+
+
     //等待签到按钮
     public void 等待签到按钮可用(){
-        new WebDriverWait(driver, 30).until(
-                ExpectedConditions.visibilityOf(workpage.签到按钮));
+        basePage.等待元素(workpage.签到按钮);
     }
 
     public void 签到按钮_点击(){
@@ -92,8 +79,7 @@ public class WorkPageHandle {
 
     //等待定位信息按钮
     public void 等待定位信息按钮可用(){
-        new WebDriverWait(driver, 30).until(
-                ExpectedConditions.visibilityOf(workpage.定位信息));
+        basePage.等待元素(workpage.定位信息);
     }
 
     //点击定位信息进入定位列表
@@ -114,17 +100,17 @@ public class WorkPageHandle {
 
     //等待位置列表元素出现
     public void 等待位置列表出现(){
-        workpage.位置列表.isDisplayed();
+        basePage.等待元素(workpage.位置列表);
     }
 
     //位置列表识别验证
     public void 查询正确位置(){
-        workpage.位置列表.isDisplayed();
-        for (int i=2 ;i<workpage.get位置列表内容元素().size() ;i++){
-            if (workpage.get位置列表内容元素().get(i).getAttribute("name").contains("航天云网")){
-                workpage.get位置列表内容元素().get(i).click();
+        等待位置列表出现();
+        for (int i=2 ;i<workpage.位置列表s.size() ;i++){
+            if (workpage.位置列表s.get(i).getAttribute("name").contains("航天云网大厦")){
+                workpage.位置列表s.get(i).click();
                 break;
-            }else if (i==workpage.get位置列表内容元素().size()-1){
+            }else if (i==workpage.位置列表s.size()-1){
                 driver.navigate().back();
                 break;
             }
@@ -203,8 +189,7 @@ public class WorkPageHandle {
 
     //等待签到信息出现
     public void 等待签到信息出现(){
-        new WebDriverWait(driver, 30).until(
-                ExpectedConditions.visibilityOf(workpage.签到文本));
+        basePage.等待元素(workpage.签到文本);
     }
 
     //获取签到信息
@@ -214,8 +199,7 @@ public class WorkPageHandle {
 
     //等待签到信息出现
     public void 等待签退信息出现(){
-        new WebDriverWait(driver, 30).until(
-                ExpectedConditions.visibilityOf(workpage.签退文本));
+        basePage.等待元素(workpage.签退文本);
     }
 
     //获取签退信息
