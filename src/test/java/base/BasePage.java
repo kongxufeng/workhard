@@ -16,7 +16,6 @@ public class BasePage {
      * 构造方法
      * */
     public BasePage(AndroidDriver driver){
-        PageFactory.initElements(driver,this);
         this.driver = driver;
     }
 

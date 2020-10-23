@@ -33,7 +33,7 @@ public class WorkPageBusiness {
        // pageHandle.等待签到按钮可用();
         workPageHandle.签到按钮_点击();
         //校验位置信息
-        workPageHandle.校验位置("航天云网");
+        workPageHandle.校验位置("航天云网大厦");
         //打卡并断言
         boolean flag = workPageHandle.打卡();
        Assert.assertTrue(flag);

@@ -87,6 +87,8 @@ public class WorkElementPage{
     @FindBy(xpath = "//android.widget.ListView/android.view.View")
     public WebElement 位置列表;
 
+    @FindBy(xpath = "//android.view.View[starts-with(@text,'航天云网大厦')]")
+    public WebElement 定位;
 
     /**
      * 获取企业列表切换按钮元素

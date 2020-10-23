@@ -32,7 +32,7 @@ public class AppDemo {
 		DesiredCapabilities cap = new DesiredCapabilities();
 		cap.setCapability(CapabilityType.BROWSER_NAME, "");
 		cap.setCapability("platformName", "Android"); //指定测试平台
-		cap.setCapability("deviceName", "G6DAJZLJU8NVVWFA"); //1859c24b指定测试机的ID,通过adb命令`adb devices`获取G6DAJZLJU8NVVWFA
+		cap.setCapability("deviceName", "4ed8a95f"); //1859c24b指定测试机的ID,通过adb命令`adb devices`获取G6DAJZLJU8NVVWFA
 		//cap.setCapability("platformVersion", "5.1.1");
 
 		//将上面获取到的包名和Activity名设置为值

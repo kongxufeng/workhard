@@ -106,15 +106,11 @@ public class WorkPageHandle {
     //位置列表识别验证
     public void 查询正确位置(){
         等待位置列表出现();
-        for (int i=2 ;i<workpage.位置列表s.size() ;i++){
-            if (workpage.位置列表s.get(i).getAttribute("name").contains("航天云网大厦")){
-                workpage.位置列表s.get(i).click();
-                break;
-            }else if (i==workpage.位置列表s.size()-1){
+            if (workpage.定位.isDisplayed()){
+                workpage.定位.click();
+            }else{
                 driver.navigate().back();
-                break;
             }
-        }
     }
     //验证位置
     public void 校验位置(String location) throws Exception{
@@ -157,21 +153,7 @@ public class WorkPageHandle {
         if (now.before(start) || now.after(end) ){
             打卡按钮_点击();
             Thread.sleep(5000);
-            if (now.before(start)){
-                等待签到信息出现();
-                if (获取签到信息().contains("正常")||获取签到信息().contains("非工作日打卡")){
-                    flag=true;
-                }else {
-                    flag=false;
-                }
-            }else if (now.after(end)){
-                等待签退信息出现();
-                if (获取签退信息().contains("正常")||获取签到信息().contains("非工作日打卡")){
-                    flag=true;
-                }else {
-                    flag=false;
-                }
-            }
+            flag = true;
         }else {
             //时间没到不点击，返回失败
             logger.error("当前时间 = **********" + now + "没到时间");

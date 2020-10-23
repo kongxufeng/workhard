@@ -20,11 +20,11 @@ public class AppCaseBase {
     private static String currentActivity = "com.seeyon.cmp.ui.LoadActivity";
     @BeforeSuite
     public void setup() throws Exception {
-        this.driver =DriverBase.getDriver(deviceName1);
+        this.driver =DriverBase.getDriver(deviceName);
         int h = driver.manage().window().getSize().height;
         int w = driver.manage().window().getSize().width;
         logger.info("获取尺寸:"+"height="+h+",width"+w);
-        Thread.sleep(10000);
+        Thread.sleep(5000);
         boolean flag = BasePage.swipe_up(w,h,currentActivity,driver);
         logger.info("是否进行解锁："+flag);
         //driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
