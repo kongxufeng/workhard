@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.List;
 
 public class BasePage {
     AndroidDriver driver;
@@ -19,9 +20,9 @@ public class BasePage {
         this.driver = driver;
     }
 
-    public void 等待元素(WebElement element){
+    public void 等待元素(List<WebElement> elements){
         new WebDriverWait(driver, 30).until(
-                ExpectedConditions.visibilityOf(element));
+                ExpectedConditions.invisibilityOfAllElements(elements));
     }
 
     public static boolean swipe_up(int w, int h, String currentActivity, AndroidDriver driver){
