@@ -3,16 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2982c774-cd8f-48ea-b77a-00ef6934c699" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/rolling.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/rolling.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/test.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/DriverBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/DriverBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/businesspage/WorkPageBusiness.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/businesspage/WorkPageBusiness.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/elementpage/WorkElementPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elementpage/WorkElementPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/handlepage/WorkPageHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/handlepage/WorkPageHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcase/AppCaseBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcase/AppCaseBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utils/AppDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/AppDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/AppDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/AppDemo.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/utils/AppDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1550">
-              <caret line="88" column="37" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="75" />
+            <state relative-caret-position="380">
+              <caret line="160" column="105" selection-start-line="160" selection-start-column="105" selection-end-line="160" selection-end-column="105" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,7 +61,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/handlepage/WorkPageHandle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
+            <state relative-caret-position="1950">
               <caret line="107" column="19" selection-start-line="107" selection-start-column="19" selection-end-line="107" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -130,11 +121,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+            <state relative-caret-position="300">
+              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -190,7 +181,6 @@
         <option value="$PROJECT_DIR$/src/test/java/base/AppCaseBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/base/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/testcase/WorkTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/utils/AppDemo.java" />
         <option value="$PROJECT_DIR$/src/test/java/businesspage/WorkPageBusiness.java" />
         <option value="$PROJECT_DIR$/src/test/java/base/DriverBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/base/BasePage.java" />
@@ -198,6 +188,7 @@
         <option value="$PROJECT_DIR$/src/test/java/elementpage/WorkElementPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/handlepage/WorkPageHandle.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/utils/AppDemo.java" />
       </list>
     </option>
   </component>
@@ -256,8 +247,8 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="66" />
-    <option name="y" value="34" />
+    <option name="x" value="117" />
+    <option name="y" value="74" />
     <option name="width" value="1708" />
     <option name="height" value="1042" />
   </component>
@@ -602,14 +593,8 @@
       <workItem from="1603088178869" duration="10977000" />
       <workItem from="1603156101597" duration="16144000" />
       <workItem from="1603242104742" duration="8151000" />
-      <workItem from="1603328983816" duration="1561000" />
-    </task>
-    <task id="LOCAL-00009" summary="添加解锁">
-      <created>1589967326271</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1589967326271</updated>
+      <workItem from="1603328983816" duration="3504000" />
+      <workItem from="1603415090995" duration="1973000" />
     </task>
     <task id="LOCAL-00010" summary="修改输入">
       <created>1590141340990</created>
@@ -947,7 +932,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603099915620</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="修改po框架问题，修复定位文本元素变更问题">
+      <created>1603351392428</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1603351392429</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -983,7 +975,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="288123000" />
+    <option name="totallyTimeSpent" value="292039000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -998,7 +990,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49848023" visible="true" weight="0.15405117" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49848023" visible="true" weight="0.15565032" />
       <window_info id="Structure" order="1" sideWeight="0.50151974" side_tool="true" weight="0.1652452" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1085,7 +1077,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="删除" />
     <MESSAGE value="修复断言错误" />
     <MESSAGE value="修复if错误" />
     <MESSAGE value="添加失败截图" />
@@ -1110,7 +1101,8 @@
     <MESSAGE value="修改driver2" />
     <MESSAGE value="修改driver3" />
     <MESSAGE value="修改ng" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改ng" />
+    <MESSAGE value="修改po框架问题，修复定位文本元素变更问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改po框架问题，修复定位文本元素变更问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1465,6 +1457,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/handlepage/WorkPageHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1950">
+          <caret line="107" column="19" selection-start-line="107" selection-start-column="19" selection-end-line="107" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/businesspage/WorkPageBusiness.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="725">
@@ -1508,30 +1510,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/handlepage/WorkPageHandle.java">
+    <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="107" column="19" selection-start-line="107" selection-start-column="19" selection-end-line="107" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/utils/AppDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1550">
-          <caret line="88" column="37" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="75" />
+        <state relative-caret-position="380">
+          <caret line="160" column="105" selection-start-line="160" selection-start-column="105" selection-end-line="160" selection-end-column="105" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
         </state>
       </provider>
     </entry>

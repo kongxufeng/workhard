@@ -157,19 +157,13 @@ public class AppDemo {
 		if( now.before(start) || now.after(end) ){
 			//点击签到
 			driver.findElement(By.xpath("//android.view.View[@resource-id='item-button-clocking']/android.view.View[1]")).click();
-			Thread.sleep(3000);
-			String text ="";
-			if (now.before(start)){
-				 text = driver.findElement(By.xpath("//android.view.View[@resource-id='clock-page]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[3]")).getAttribute("name");
-			}else {
-				text = driver.findElement(By.xpath("//android.view.View[@resource-id='clock-page']/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[6]")).getAttribute("name");
-			}
-
-			if (text.contains("正常")){
+			Thread.sleep(5000);
+			int size = driver.findElements(By.xpath("//android.view.View[contains(@text,'正常')]")).size();
+			if (size>0){
 					logger.info("********** 成功 **********");
 					flag = true;
 			}else{
-					logger.error("未检测到正常**********"+text);
+					logger.error("未检测到正常**********");
 					flag = false;
 			}
 		}
