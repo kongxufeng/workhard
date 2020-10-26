@@ -26,7 +26,6 @@ public class AppCaseBase {
         logger.info("获取尺寸:"+"height="+h+",width"+w);
         boolean flag = BasePage.swipe_up(w,h,driver);
         logger.info("是否进行解锁："+flag);
-        driver.manage().timeouts().pageLoadTimeout(60,TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
     }
 
