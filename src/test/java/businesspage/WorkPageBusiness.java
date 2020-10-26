@@ -36,7 +36,7 @@ public class WorkPageBusiness {
         workPageHandle.校验位置("航天云网大厦");
         //打卡并断言
         boolean flag = workPageHandle.打卡();
-       Assert.assertTrue(flag);
+        Assert.assertTrue(flag);
     }
 
 

@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="2982c774-cd8f-48ea-b77a-00ef6934c699" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/businesspage/WorkPageBusiness.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/businesspage/WorkPageBusiness.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/handlepage/WorkPageHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/handlepage/WorkPageHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcase/AppCaseBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcase/AppCaseBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/elementpage/WorkElementPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="32" column="41" lean-forward="true" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+            <state relative-caret-position="400">
+              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/handlepage/WorkPageHandle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="29" column="31" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="36" />
+            <state relative-caret-position="3800">
+              <caret line="183" column="29" selection-start-line="183" selection-start-column="29" selection-end-line="183" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#749#750#0" expanded="true" />
@@ -61,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/businesspage/WorkPageBusiness.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+            <state relative-caret-position="541">
+              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testcase/AppCaseBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+            <state relative-caret-position="230">
+              <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,12 +93,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/base/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="355">
+              <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
-                <element signature="e#515#516#0" expanded="true" />
                 <element signature="method#GetDate#0;class#BasePage#0" />
                 <element signature="method#GetDate#1;class#BasePage#0" />
               </folding>
@@ -104,7 +107,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/base/DriverBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="750">
               <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -114,11 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/utils/AppDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
+            <state relative-caret-position="502">
+              <caret line="88" column="87" lean-forward="true" selection-start-line="88" selection-start-column="87" selection-end-line="88" selection-end-column="87" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -188,12 +191,12 @@
         <option value="$PROJECT_DIR$/src/test/java/testcase/WorkTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/base/DriverBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/elementpage/WorkElementPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/base/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/handlepage/WorkPageHandle.java" />
         <option value="$PROJECT_DIR$/src/test/java/utils/AppDemo.java" />
         <option value="$PROJECT_DIR$/src/test/java/businesspage/WorkPageBusiness.java" />
-        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/testcase/AppCaseBase.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/base/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/handlepage/WorkPageHandle.java" />
       </list>
     </option>
   </component>
@@ -252,9 +255,10 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="197" />
-    <option name="width" value="1708" />
-    <option name="height" value="1042" />
+    <option name="x" value="114" />
+    <option name="y" value="14" />
+    <option name="width" value="1699" />
+    <option name="height" value="1028" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -262,8 +266,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -356,6 +358,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -604,14 +608,8 @@
       <workItem from="1603242104742" duration="8151000" />
       <workItem from="1603328983816" duration="3504000" />
       <workItem from="1603415090995" duration="2619000" />
-      <workItem from="1603436092207" duration="5652000" />
-    </task>
-    <task id="LOCAL-00012" summary="修改定位">
-      <created>1590568212820</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1590568212820</updated>
+      <workItem from="1603436092207" duration="5951000" />
+      <workItem from="1603674192983" duration="3791000" />
     </task>
     <task id="LOCAL-00013" summary="增加等待随机时间">
       <created>1591585348909</created>
@@ -949,7 +947,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603444733408</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="修改为po框架运行">
+      <created>1603445305871</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1603445305871</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -985,7 +990,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="298337000" />
+    <option name="totallyTimeSpent" value="302427000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -997,10 +1002,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="155" y="1" width="1708" height="1042" extended-state="0" />
+    <frame x="114" y="14" width="1699" height="1028" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49848023" visible="true" weight="0.17900485" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49848023" visible="true" weight="0.18181819" />
       <window_info id="Structure" order="1" sideWeight="0.50151974" side_tool="true" weight="0.1652452" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1021,7 +1026,7 @@
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4931164" weight="0.26898047" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.4978678" weight="0.3264642" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.66364604" weight="0.6453362" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.66364604" weight="0.6442731" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1442,20 +1447,6 @@
     <entry file="file://$PROJECT_DIR$/screenshots/20201023163140">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/base/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="method#GetDate#0;class#BasePage#0" />
-            <element signature="method#GetDate#1;class#BasePage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/utils/WrappedRemoteWebDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -1467,10 +1458,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/base/DriverBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        <state relative-caret-position="750">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#getDriver#0;class#DriverBase#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/AppDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="88" column="87" lean-forward="true" selection-start-line="88" selection-start-column="87" selection-end-line="88" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/elementpage/WorkElementPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1485,31 +1500,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/base/DriverBase.java">
+    <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="175">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/base/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;method#getDriver#0;class#DriverBase#0" />
+            <element signature="method#GetDate#0;class#BasePage#0" />
+            <element signature="method#GetDate#1;class#BasePage#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testcase/AppCaseBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/businesspage/WorkPageBusiness.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        <state relative-caret-position="230">
+          <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1518,8 +1531,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/handlepage/WorkPageHandle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="36" />
+        <state relative-caret-position="3800">
+          <caret line="183" column="29" selection-start-line="183" selection-start-column="29" selection-end-line="183" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#749#750#0" expanded="true" />
@@ -1530,20 +1543,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/elementpage/WorkElementPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/businesspage/WorkPageBusiness.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="32" column="41" lean-forward="true" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/AppDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
+        <state relative-caret-position="541">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

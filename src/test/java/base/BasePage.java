@@ -1,6 +1,7 @@
 package base;
 
 import io.appium.java_client.android.AndroidDriver;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -11,21 +12,22 @@ import java.util.Date;
 import java.util.List;
 
 public class BasePage {
-    AndroidDriver driver;
+    public AndroidDriver driver;
 
     /**
      * 构造方法
      * */
     public BasePage(AndroidDriver driver){
         this.driver = driver;
+        PageFactory.initElements(driver, this);
     }
 
-    public void 等待元素(List<WebElement> elements){
+    public void 等待元素(WebDriver driver , WebElement element){
         new WebDriverWait(driver, 30).until(
-                ExpectedConditions.invisibilityOfAllElements(elements));
+                ExpectedConditions.visibilityOf(element));
     }
 
-    public static boolean swipe_up(int w, int h, String currentActivity, AndroidDriver driver){
+    public static boolean swipe_up(int w, int h, AndroidDriver driver){
         boolean flag= false;
         if (driver.isLocked()){
             driver.swipe(new Double(w*0.5).intValue(),new Double(h*0.75).intValue(),new Double(w*0.5).intValue(),new Double(h*0.25).intValue() ,1000);
