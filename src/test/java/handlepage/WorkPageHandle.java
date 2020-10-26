@@ -47,7 +47,7 @@ public class WorkPageHandle {
 
     //等待登录按钮
     public void 等待登录按钮可用(){
-        basePage.等待元素(driver,workpage.登录按钮);
+        basePage.等待元素(workpage.登录按钮);
     }
 
     public void 登录按钮_点击(){
@@ -57,7 +57,7 @@ public class WorkPageHandle {
 
     //等待工作台按钮
     public void 等待工作台按钮可用(){
-        basePage.等待元素(driver,workpage.工作台按钮);
+        basePage.等待元素(workpage.工作台按钮);
     }
 
     public void 工作台按钮_点击(){
@@ -69,7 +69,7 @@ public class WorkPageHandle {
 
     //等待签到按钮
     public void 等待签到按钮可用(){
-        basePage.等待元素(driver,workpage.签到按钮);
+        basePage.等待元素(workpage.签到按钮);
     }
 
     public void 签到按钮_点击(){
@@ -79,7 +79,7 @@ public class WorkPageHandle {
 
     //等待定位信息按钮
     public void 等待定位信息按钮可用(){
-        basePage.等待元素(driver,workpage.定位信息);
+        basePage.等待元素(workpage.定位信息);
     }
 
     //点击定位信息进入定位列表
@@ -100,7 +100,7 @@ public class WorkPageHandle {
 
     //等待位置列表元素出现
     public void 等待位置列表出现(){
-        basePage.等待元素(driver,workpage.位置列表);
+        basePage.等待元素(workpage.位置列表);
     }
 
     //位置列表识别验证
@@ -166,12 +166,13 @@ public class WorkPageHandle {
 
     //点击打卡按钮
     public void 打卡按钮_点击(){
+        basePage.等待元素(workpage.打卡按钮);
         workpage.打卡按钮.click();
     }
 
     //等待签到信息出现
     public void 等待签到信息出现(){
-        basePage.等待元素(driver,workpage.签到文本);
+        basePage.等待元素(workpage.签到文本);
     }
 
     //获取签到信息
@@ -181,7 +182,7 @@ public class WorkPageHandle {
 
     //等待签到信息出现
     public void 等待签退信息出现(){
-        basePage.等待元素(driver,workpage.签退文本);
+        basePage.等待元素(workpage.签退文本);
     }
 
     //获取签退信息

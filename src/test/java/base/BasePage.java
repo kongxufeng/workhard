@@ -22,7 +22,7 @@ public class BasePage {
         PageFactory.initElements(driver, this);
     }
 
-    public void 等待元素(WebDriver driver , WebElement element){
+    public void 等待元素(WebElement element){
         new WebDriverWait(driver, 30).until(
                 ExpectedConditions.visibilityOf(element));
     }
