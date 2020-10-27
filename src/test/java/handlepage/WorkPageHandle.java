@@ -90,6 +90,7 @@ public class WorkPageHandle {
 
     //点击企业按钮
     public void 企业按钮_点击(){
+        basePage.等待元素(workpage.企业按钮);
         workpage.企业按钮.click();
     }
 
