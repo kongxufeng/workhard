@@ -7,7 +7,6 @@ import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import utils.WrappedRemoteWebDriver;
 
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.List;
 

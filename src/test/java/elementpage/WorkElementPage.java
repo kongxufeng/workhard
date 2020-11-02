@@ -2,11 +2,9 @@ package elementpage;
 
 import base.BasePage;
 import io.appium.java_client.android.AndroidDriver;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 
 import java.util.List;
 
@@ -108,15 +106,12 @@ public class WorkElementPage{
      * 获取签到后的文本元素
      * */
 
-    @FindBy(xpath = "//android.view.View[@resource-id='clock-page']/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[3]")
-    public WebElement 签到文本;
+    @FindBy(xpath = "//android.view.View[contains(@text,'正常')]")
+    public List<WebElement> 校验文本s;
+    @FindBy(xpath = "//android.view.View[contains(@text,'正常')]")
+    public WebElement 校验文本;
 
-    /**
-     * 获取签退后的文本元素
-     * */
 
-    @FindBy(xpath = "//android.view.View[@resource-id='clock-page']/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[6]")
-    public WebElement 签退文本;
 
 
 

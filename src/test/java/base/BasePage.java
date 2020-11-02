@@ -1,7 +1,6 @@
 package base;
 
 import io.appium.java_client.android.AndroidDriver;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -9,7 +8,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.List;
 
 public class BasePage {
     public AndroidDriver driver;
@@ -23,7 +21,7 @@ public class BasePage {
     }
 
     public void 等待元素(WebElement element){
-        new WebDriverWait(driver, 30).until(
+        new WebDriverWait(driver, 20).until(
                 ExpectedConditions.visibilityOf(element));
     }
 

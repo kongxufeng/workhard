@@ -121,7 +121,9 @@ public class WorkPageHandle {
                 Thread.sleep(2000);
             }else if (!获取位置信息().contains(location)){
                 定位信息按钮_点击();
+                Thread.sleep(2000);
                 企业按钮_点击();
+                Thread.sleep(2000);
                 查询正确位置();
             }else {
                 break;
@@ -152,9 +154,17 @@ public class WorkPageHandle {
         Date end=签退时间();
         boolean flag = false;
         if (now.before(start) || now.after(end) ){
+            Thread.sleep(3000);
             打卡按钮_点击();
-            Thread.sleep(5000);
-            flag = true;
+            Thread.sleep(3000);
+            int n = workpage.校验文本s.size();
+            if (now.before(start) && n==1){
+                flag = true;
+            }else if (now.after(end) && n==2){
+                flag = true;
+            }else {
+                flag =false;
+            }
         }else {
             //时间没到不点击，返回失败
             logger.error("当前时间 = **********" + now + "没到时间");
@@ -171,24 +181,8 @@ public class WorkPageHandle {
         workpage.打卡按钮.click();
     }
 
-    //等待签到信息出现
-    public void 等待签到信息出现(){
-        basePage.等待元素(workpage.签到文本);
-    }
 
-    //获取签到信息
-    public String 获取签到信息(){
-       return workpage.签到文本.getAttribute("name");
-    }
 
-    //等待签到信息出现
-    public void 等待签退信息出现(){
-        basePage.等待元素(workpage.签退文本);
-    }
 
-    //获取签退信息
-    public String 获取签退信息(){
-       return workpage.签退文本.getAttribute("name");
-    }
 
 }
