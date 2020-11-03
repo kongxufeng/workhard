@@ -152,15 +152,17 @@ public class WorkPageHandle {
         Date now =当前时间();
         Date start=签到时间();
         Date end=签退时间();
-        boolean flag = false;
+        boolean flag;
         if (now.before(start) || now.after(end) ){
             Thread.sleep(3000);
             打卡按钮_点击();
             Thread.sleep(3000);
             int n = workpage.校验文本s.size();
-            if (now.before(start) && n==1){
+            int m = workpage.校验文本s1.size();
+            int num = n+m;
+            if (now.before(start) && num==1){
                 flag = true;
-            }else if (now.after(end) && n==2){
+            }else if (now.after(end) && num==2){
                 flag = true;
             }else {
                 flag =false;

@@ -108,8 +108,10 @@ public class WorkElementPage{
 
     @FindBy(xpath = "//android.view.View[contains(@text,'正常')]")
     public List<WebElement> 校验文本s;
-    @FindBy(xpath = "//android.view.View[contains(@text,'正常')]")
-    public WebElement 校验文本;
+    @FindBy(xpath = "//android.view.View[contains(@text,'迟到')]")
+    public List<WebElement> 校验文本s1;
+    @FindBy(xpath = "//android.view.View[contains(@text,'早退')]")
+    public List<WebElement> 校验文本s2;
 
 
 
