@@ -4,8 +4,7 @@
     <list default="true" id="2982c774-cd8f-48ea-b77a-00ef6934c699" name="Default Changelist" comment="修改断言，增加等待时间">
       <change afterPath="$PROJECT_DIR$/src/test/resources/chaojixunliandashi.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/elementpage/WorkElementPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elementpage/WorkElementPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/handlepage/WorkPageHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/handlepage/WorkPageHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/handlepage/WorkPageHandle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="154" column="21" lean-forward="true" selection-start-line="154" selection-start-column="21" selection-end-line="154" selection-end-column="21" />
+            <state relative-caret-position="425">
+              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#749#750#0" expanded="true" />
@@ -67,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/elementpage/WorkElementPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="113" column="35" lean-forward="true" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
+            <state relative-caret-position="2675">
+              <caret line="113" column="35" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/chaojixunliandashi.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1951800">
-              <caret line="78072" column="7" selection-start-line="78072" selection-start-column="7" selection-end-line="78072" selection-end-column="7" />
+            <state relative-caret-position="475">
+              <caret line="127314" column="64" selection-start-line="127314" selection-start-column="64" selection-end-line="127314" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -165,6 +164,10 @@
       <find>第十一章</find>
       <find>第六十八章</find>
       <find>第六十七章</find>
+      <find>第二百七十一章</find>
+      <find>第二百一十七章</find>
+      <find>第三百二十五</find>
+      <find>&lt;/br&gt;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -208,6 +211,7 @@
         <option value="$PROJECT_DIR$/src/test/java/businesspage/WorkPageBusiness.java" />
         <option value="$PROJECT_DIR$/src/test/java/elementpage/WorkElementPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/handlepage/WorkPageHandle.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/chaojixunliandashi.txt" />
       </list>
     </option>
   </component>
@@ -266,8 +270,8 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="57" />
-    <option name="y" value="15" />
+    <option name="x" value="112" />
+    <option name="y" value="11" />
     <option name="width" value="1739" />
     <option name="height" value="1025" />
   </component>
@@ -277,8 +281,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -304,73 +306,12 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="workhard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workhard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workhard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workhard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="businesspage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workhard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workhard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workhard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workhard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="elementpage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workhard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workhard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="handlepage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workhard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workhard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testcase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workhard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workhard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workhard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workhard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -625,14 +566,10 @@
       <workItem from="1603759967084" duration="11530000" />
       <workItem from="1603846797865" duration="6544000" />
       <workItem from="1604279427271" duration="7056000" />
-      <workItem from="1604388252807" duration="440000" />
-    </task>
-    <task id="LOCAL-00019" summary="修改driver监控">
-      <created>1597373520732</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1597373520732</updated>
+      <workItem from="1604388252807" duration="1317000" />
+      <workItem from="1604451806652" duration="3050000" />
+      <workItem from="1604624918258" duration="9262000" />
+      <workItem from="1604883949658" duration="513000" />
     </task>
     <task id="LOCAL-00020" summary="修改列表查询">
       <created>1597380503727</created>
@@ -970,7 +907,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604282207408</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="修改校验文本判断">
+      <created>1604388732918</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1604388732919</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1006,7 +950,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="337125000" />
+    <option name="totallyTimeSpent" value="350827000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1018,10 +962,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="15" width="1739" height="1025" extended-state="0" />
-    <editor active="true" />
+    <frame x="112" y="11" width="1739" height="1025" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49848023" visible="true" weight="0.18701608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49848023" visible="true" weight="0.19416319" />
       <window_info id="Structure" order="1" sideWeight="0.50151974" side_tool="true" weight="0.1652452" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1108,7 +1051,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="优化代码" />
     <MESSAGE value="优化2" />
     <MESSAGE value="优化3" />
     <MESSAGE value="111" />
@@ -1133,7 +1075,8 @@
     <MESSAGE value="去掉等待driver" />
     <MESSAGE value="添加企业按钮等待时间" />
     <MESSAGE value="修改断言，增加等待时间" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改断言，增加等待时间" />
+    <MESSAGE value="修改校验文本判断" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改校验文本判断" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1470,6 +1413,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/handlepage/WorkPageHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#1445#1446#0" expanded="true" />
+            <element signature="e#1489#1490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/elementpage/WorkElementPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2675">
+          <caret line="113" column="35" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/utils/AppDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3550">
@@ -1500,13 +1467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/chaojixunliandashi.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1951800">
-          <caret line="78072" column="7" selection-start-line="78072" selection-start-column="7" selection-end-line="78072" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/base/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
@@ -1527,27 +1487,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/elementpage/WorkElementPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/chaojixunliandashi.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="113" column="35" lean-forward="true" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/handlepage/WorkPageHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="154" column="21" lean-forward="true" selection-start-line="154" selection-start-column="21" selection-end-line="154" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
-            <element signature="e#1445#1446#0" expanded="true" />
-            <element signature="e#1489#1490#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="475">
+          <caret line="127314" column="64" selection-start-line="127314" selection-start-column="64" selection-end-line="127314" selection-end-column="64" />
         </state>
       </provider>
     </entry>
