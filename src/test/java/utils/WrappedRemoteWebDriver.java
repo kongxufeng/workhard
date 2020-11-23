@@ -19,6 +19,7 @@ import java.util.List;
 public class WrappedRemoteWebDriver extends AndroidDriver {
 	
 	private Logger logger = LogManager.getLogger();
+	AndroidDriver driver;
 	
 	public WrappedRemoteWebDriver(URL remoteAddress, Capabilities capabilities) {
 		super(remoteAddress,capabilities);
@@ -35,6 +36,7 @@ public class WrappedRemoteWebDriver extends AndroidDriver {
 			SimpleDateFormat df = new SimpleDateFormat("yyyyMMddHHmmss");// 设置日期格式
 			String time = df.format(new Date());
 			takeScreenShot(time);
+			driver.quit();
 		}
 		return elements;
 	}
@@ -50,6 +52,7 @@ public class WrappedRemoteWebDriver extends AndroidDriver {
 			SimpleDateFormat df = new SimpleDateFormat("yyyyMMddHHmmss");// 设置日期格式
 			String time = df.format(new Date());
 			takeScreenShot(time);
+			driver.quit();
 		}
 		return element;
 	}

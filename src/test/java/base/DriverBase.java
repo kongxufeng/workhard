@@ -18,7 +18,7 @@ public class DriverBase{
      * 构造方法 创建对象时实例化driver
      * */
     public DriverBase() throws Exception {
-        this.driver = getDriver(deviceName1);
+            this.driver = getDriver(deviceName1);
     }
 
 
