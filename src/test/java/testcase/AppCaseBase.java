@@ -6,8 +6,10 @@ import io.appium.java_client.android.AndroidDriver;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+
 import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 
 import java.util.concurrent.TimeUnit;
 
@@ -16,7 +18,7 @@ public class AppCaseBase {
     public Logger logger = LogManager.getLogger();
     private static String deviceName ="G6DAJZLJU8NVVWFA";//vivo
     private static String deviceName1 ="4ed8a95f";//xiaomi8
-    @BeforeSuite
+    @BeforeTest
     public void setup() throws Exception {
         this.driver = DriverBase.getDriver(deviceName);
         int h = driver.manage().window().getSize().height;
@@ -27,8 +29,13 @@ public class AppCaseBase {
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
     }
 
-    @AfterSuite
+
+    @AfterTest
     public void tearDown() {
+        driver.close();
+    }
+    @AfterSuite
+    public void quit(){
         driver.quit();
     }
 }

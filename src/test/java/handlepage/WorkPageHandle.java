@@ -123,7 +123,7 @@ public class WorkPageHandle {
                 定位信息按钮_点击();
                 Thread.sleep(2000);
                 企业按钮_点击();
-                Thread.sleep(2000);
+                Thread.sleep(5000);
                 查询正确位置();
             }else {
                 break;
