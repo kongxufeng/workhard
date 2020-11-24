@@ -33,10 +33,7 @@ public class AppCaseBase {
 
     @AfterTest
     public void tearDown() {
-        driver.close();
-    }
-    @AfterSuite
-    public void quit(){
         driver.quit();
     }
+
 }
