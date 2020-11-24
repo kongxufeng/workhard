@@ -7,6 +7,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -31,7 +32,7 @@ public class AppCaseBase {
     }
 
 
-    @AfterTest
+    @AfterClass
     public void tearDown() {
         driver.quit();
     }
