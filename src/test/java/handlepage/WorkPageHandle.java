@@ -152,21 +152,26 @@ public class WorkPageHandle {
         Date now =当前时间();
         Date start=签到时间();
         Date end=签退时间();
-        boolean flag;
+        boolean flag =false;
         if (now.before(start) || now.after(end) ){
             Thread.sleep(3000);
-            打卡按钮_点击();
-            Thread.sleep(3000);
-            int n = workpage.校验文本s.size();
-            int m = workpage.校验文本s1.size();
-            int num = n+m;
-            if (now.before(start) && num==1){
-                flag = true;
-            }else if (now.after(end) && num==2){
-                flag = true;
-            }else {
-                flag =false;
+            for (int i = 0; i <4 ; i++) {
+                打卡按钮_点击();
+                Thread.sleep(3000);
+                int n = workpage.校验文本s.size();
+                int m = workpage.校验文本s1.size();
+                int num = n+m;
+                if (now.before(start) && num==1){
+                    flag = true;
+                    break;
+                }else if (now.after(end) && num==2){
+                    flag = true;
+                    break;
+                }else {
+                    continue;
+                }
             }
+
         }else {
             //时间没到不点击，返回失败
             logger.error("当前时间 = **********" + now + "没到时间");

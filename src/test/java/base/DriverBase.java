@@ -57,7 +57,7 @@ public class DriverBase{
 
 
         //A new session could not be created的解决方法
-        cap.setCapability("appWaitActivity", "com.seeyon.cmp.ui.main.MainActivity");
+        cap.setCapability("appWaitActivity", "com.seeyon.cmp.ui.LoadActivity");
         //每次启动时覆盖session，否则第二次后运行会报错不能新建session
         cap.setCapability("sessionOverride", true);
         cap.setCapability("noReset", true);
