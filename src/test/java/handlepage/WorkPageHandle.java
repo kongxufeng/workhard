@@ -91,6 +91,7 @@ public class WorkPageHandle {
     //点击企业按钮
     public void 企业按钮_点击(){
         basePage.等待元素(workpage.企业按钮);
+
         workpage.企业按钮.click();
     }
 
@@ -121,7 +122,7 @@ public class WorkPageHandle {
                 Thread.sleep(2000);
             }else if (!获取位置信息().contains(location)){
                 定位信息按钮_点击();
-                Thread.sleep(2000);
+                Thread.sleep(3000);
                 企业按钮_点击();
                 Thread.sleep(5000);
                 查询正确位置();
