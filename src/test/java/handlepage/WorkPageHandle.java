@@ -118,6 +118,7 @@ public class WorkPageHandle {
     public void 校验位置(String location) throws Exception{
         等待定位信息按钮可用();
         for (int i=0;i<5;i++){
+            Thread.sleep(2000);
             if (获取位置信息().isEmpty()){
                 Thread.sleep(2000);
             }else if (!获取位置信息().contains(location)){
