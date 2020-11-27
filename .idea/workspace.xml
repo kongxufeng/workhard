@@ -5,7 +5,6 @@
       <change afterPath="$PROJECT_DIR$/src/test/resources/chaojixunliandashi.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/base/DriverBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/DriverBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/handlepage/WorkPageHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/handlepage/WorkPageHandle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/chromedriver.exe" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/businesspage/WorkPageBusiness.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="43" column="39" lean-forward="true" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+            <state relative-caret-position="556">
+              <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/handlepage/WorkPageHandle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="167" column="21" selection-start-line="167" selection-start-column="21" selection-end-line="167" selection-end-column="21" />
+            <state relative-caret-position="406">
+              <caret line="120" column="31" selection-start-line="120" selection-start-column="31" selection-end-line="120" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#749#750#0" expanded="true" />
@@ -116,11 +115,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/base/DriverBase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="393">
-              <caret line="59" column="76" selection-start-line="59" selection-start-column="76" selection-end-line="59" selection-end-column="76" />
+              <caret line="59" column="10" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;method#getDriver#0;class#DriverBase#0" />
@@ -216,8 +215,8 @@
         <option value="$PROJECT_DIR$/src/test/java/businesspage/WorkPageBusiness.java" />
         <option value="$PROJECT_DIR$/src/test/java/testcase/AppCaseBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/testcase/WorkTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/base/DriverBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/handlepage/WorkPageHandle.java" />
+        <option value="$PROJECT_DIR$/src/test/java/base/DriverBase.java" />
       </list>
     </option>
   </component>
@@ -276,8 +275,8 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="118" />
-    <option name="y" value="13" />
+    <option name="x" value="88" />
+    <option name="y" value="6" />
     <option name="width" value="1739" />
     <option name="height" value="1025" />
   </component>
@@ -612,28 +611,7 @@
       <workItem from="1605489598643" duration="1860000" />
       <workItem from="1606093622039" duration="7850000" />
       <workItem from="1606179459436" duration="3435000" />
-      <workItem from="1606352268671" duration="674000" />
-    </task>
-    <task id="LOCAL-00027" summary="添加断言">
-      <created>1599034685339</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1599034685339</updated>
-    </task>
-    <task id="LOCAL-00028" summary="修复判断元素">
-      <created>1599035535747</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1599035535747</updated>
-    </task>
-    <task id="LOCAL-00029" summary="删除">
-      <created>1599037209286</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1599037209286</updated>
+      <workItem from="1606352268671" duration="2200000" />
     </task>
     <task id="LOCAL-00030" summary="删除">
       <created>1599037429565</created>
@@ -957,7 +935,28 @@
       <option name="project" value="LOCAL" />
       <updated>1606199556839</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="修改driver启动，修改验证判断">
+      <created>1606353005006</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1606353005006</updated>
+    </task>
+    <task id="LOCAL-00077" summary="修改等待时间">
+      <created>1606383516424</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1606383516424</updated>
+    </task>
+    <task id="LOCAL-00078" summary="修改等待时间">
+      <created>1606383541767</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1606383541768</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -993,7 +992,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="368475000" />
+    <option name="totallyTimeSpent" value="370001000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1005,7 +1004,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="118" y="13" width="1739" height="1025" extended-state="0" />
+    <frame x="88" y="6" width="1739" height="1025" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49848023" visible="true" weight="0.20845741" />
@@ -1095,7 +1094,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="222" />
     <MESSAGE value="333" />
     <MESSAGE value="优化" />
     <MESSAGE value="添加WorkTest" />
@@ -1117,65 +1115,66 @@
     <MESSAGE value="修改校验文本判断" />
     <MESSAGE value="修改断言，增加等待时间" />
     <MESSAGE value="修改driver退出" />
-    <MESSAGE value="修改等待时间" />
     <MESSAGE value="修改" />
     <MESSAGE value="修改2" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改2" />
+    <MESSAGE value="修改driver启动，修改验证判断" />
+    <MESSAGE value="修改等待时间" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改等待时间" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/handlepage/WorkPageHandle.java</url>
-          <line>117</line>
+          <line>118</line>
           <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/handlepage/WorkPageHandle.java</url>
-          <line>122</line>
+          <line>124</line>
           <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/handlepage/WorkPageHandle.java</url>
-          <line>124</line>
+          <line>126</line>
           <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/handlepage/WorkPageHandle.java</url>
-          <line>126</line>
+          <line>128</line>
           <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/handlepage/WorkPageHandle.java</url>
-          <line>110</line>
+          <line>111</line>
           <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/handlepage/WorkPageHandle.java</url>
-          <line>112</line>
+          <line>113</line>
           <properties />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/handlepage/WorkPageHandle.java</url>
-          <line>108</line>
+          <line>109</line>
           <properties />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/handlepage/WorkPageHandle.java</url>
-          <line>109</line>
+          <line>110</line>
           <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/handlepage/WorkPageHandle.java</url>
-          <line>111</line>
+          <line>112</line>
           <properties />
           <option name="timeStamp" value="29" />
         </line-breakpoint>
@@ -1509,17 +1508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/base/DriverBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="59" column="76" selection-start-line="59" selection-start-column="76" selection-end-line="59" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#getDriver#0;class#DriverBase#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testcase/WorkTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -1533,8 +1521,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/businesspage/WorkPageBusiness.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="43" column="39" lean-forward="true" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+        <state relative-caret-position="556">
+          <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1543,8 +1531,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/handlepage/WorkPageHandle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="167" column="21" selection-start-line="167" selection-start-column="21" selection-end-line="167" selection-end-column="21" />
+        <state relative-caret-position="406">
+          <caret line="120" column="31" selection-start-line="120" selection-start-column="31" selection-end-line="120" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#749#750#0" expanded="true" />
@@ -1553,6 +1541,17 @@
             <element signature="e#875#876#0" expanded="true" />
             <element signature="e#1445#1446#0" expanded="true" />
             <element signature="e#1489#1490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/base/DriverBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="59" column="10" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#getDriver#0;class#DriverBase#0" />
           </folding>
         </state>
       </provider>
