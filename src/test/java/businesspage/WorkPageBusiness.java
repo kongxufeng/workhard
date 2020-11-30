@@ -32,13 +32,9 @@ public class WorkPageBusiness {
         Thread.sleep(3000);
         workPageHandle.签到按钮_点击();
         //校验位置信息
-        Thread.sleep(3000);
-        try {
-            workPageHandle.校验位置("航天云网大厦");
-        }catch (Exception e){
-            e.printStackTrace();
-            driver.quit();
-        }
+        Thread.sleep(5000);
+        workPageHandle.等待定位信息按钮可用();
+        workPageHandle.校验位置("航天云网大厦");
 
         //打卡并断言
         boolean flag = workPageHandle.打卡();

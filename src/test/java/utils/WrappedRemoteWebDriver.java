@@ -1,6 +1,7 @@
 package utils;
 
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.*;
@@ -19,7 +20,6 @@ import java.util.List;
 public class WrappedRemoteWebDriver extends AndroidDriver {
 	
 	private Logger logger = LogManager.getLogger();
-	AndroidDriver driver;
 	
 	public WrappedRemoteWebDriver(URL remoteAddress, Capabilities capabilities) {
 		super(remoteAddress,capabilities);
@@ -35,8 +35,7 @@ public class WrappedRemoteWebDriver extends AndroidDriver {
 			logger.error("通过"+by+"方法查找"+using+"元素时发生异常，原因："+e.getMessage());
 			SimpleDateFormat df = new SimpleDateFormat("yyyyMMddHHmmss");// 设置日期格式
 			String time = df.format(new Date());
-			takeScreenShot(time);
-			driver.quit();
+			takeScreenShot(time+".png");
 		}
 		return elements;
 	}
@@ -51,8 +50,7 @@ public class WrappedRemoteWebDriver extends AndroidDriver {
 			logger.error("通过"+by+"方法查找"+using+"元素时发生异常，原因："+e.getMessage());
 			SimpleDateFormat df = new SimpleDateFormat("yyyyMMddHHmmss");// 设置日期格式
 			String time = df.format(new Date());
-			takeScreenShot(time);
-			driver.quit();
+			takeScreenShot(time+".png");
 		}
 		return element;
 	}

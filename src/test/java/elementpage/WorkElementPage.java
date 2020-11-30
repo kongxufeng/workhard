@@ -86,6 +86,8 @@ public class WorkElementPage{
     public WebElement 位置列表;
 
     @FindBy(xpath = "//android.view.View[starts-with(@text,'航天云网大厦')]")
+    public List<WebElement> 定位s;
+    @FindBy(xpath = "//android.view.View[starts-with(@text,'航天云网大厦')]")
     public WebElement 定位;
 
     /**
