@@ -21,7 +21,7 @@ public class AppCaseBase {
     private static String deviceName1 ="4ed8a95f";//xiaomi8
     @BeforeTest
     public void setup() throws Exception {
-            this.driver = DriverBase.getDriver(deviceName);
+            this.driver = DriverBase.initDriver(deviceName);
             int h = driver.manage().window().getSize().height;
             int w = driver.manage().window().getSize().width;
             logger.info("获取尺寸:" + "height=" + h + ",width" + w);
