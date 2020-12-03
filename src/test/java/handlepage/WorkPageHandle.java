@@ -128,6 +128,7 @@ public class WorkPageHandle {
             }else {
                 break;
             }
+            logger.info(获取位置信息());
         }
     }
 
@@ -154,7 +155,6 @@ public class WorkPageHandle {
         Date end=签退时间();
         boolean flag =false;
         if (now.before(start) || now.after(end) ){
-            Thread.sleep(3000);
             for (int i = 0; i <4 ; i++) {
                 打卡按钮_点击();
                 Thread.sleep(3000);
