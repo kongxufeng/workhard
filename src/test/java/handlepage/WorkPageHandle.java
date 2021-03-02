@@ -9,7 +9,7 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.support.PageFactory;
 import java.util.Date;
 
-
+//操作层
 public class WorkPageHandle {
     AndroidDriver driver;
     WorkElementPage workpage;

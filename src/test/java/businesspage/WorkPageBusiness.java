@@ -3,7 +3,7 @@ package businesspage;
 import handlepage.WorkPageHandle;
 import io.appium.java_client.android.AndroidDriver;
 import org.testng.Assert;
-
+//业务层
 public class WorkPageBusiness {
     //WorkPageHandle pageHandle;
     AndroidDriver driver;

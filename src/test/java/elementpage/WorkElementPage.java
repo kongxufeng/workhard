@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
-
+//元素定位层
 public class WorkElementPage{
     AndroidDriver driver;
     BasePage basePage;
